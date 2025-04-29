@@ -1,11 +1,18 @@
-import React from 'react'
+"use client";
+import React, { useState } from 'react';
+const EnquiryButton = ({onClick, CustomClass }) => {
 
-const EnquiryButton = ({CustomClass}) => {
   return (
-    <button className={`bg-[#705118] text-white w-[150px] h-[40px] ${CustomClass}`}>
-    Enquire Now
-  </button>
-  )
-}
+    <>
+      <button 
+        onClick={onClick}
+        className={`bg-[#705118] cursor-pointer text-white w-[150px] h-[40px] ${CustomClass}`}
+      >
+        Enquire Now
+      </button>
+      
+    </>
+  );
+};
 
-export default EnquiryButton
+export default EnquiryButton;

@@ -6,30 +6,30 @@ import Price from '../utilities/Price'
 
 const Residences = () => {
   return (
-    <section className="py-[50px] bg-[#EBEAE6] relative">
+    <section className="py-[50px] bg-[#EBEAE6] relative" id="residences">
       <img 
         src="/assets/images/residences/bg.png" 
         alt="background image" 
-        className='absolute top-[24%] left-0'
+        className='absolute top-[24%] left-0 hidden md:block'
       />
       <img 
         src="/assets/images/residences/bg.png" 
         alt="background image" 
-        className='absolute top-[24%] right-0 transform scale-x-[-1]'
+        className='absolute top-[24%] right-0 transform scale-x-[-1] hidden md:block'
       />
       <div className="container mx-auto">
         {/* Top Heading */}
         <CustomDiv CustomClass="mb-[50px]">
-          <Pera CustomClass="text-[24px]">Odisha's <span className='text-[#A39264] text-[32px] font-bold'>largest</span> luxury residences</Pera>
+          <Pera CustomClass="text-[20px] md:text-[24px]">Odisha's <span className='text-[#A39264] text-[32px] font-bold'>largest</span> luxury residences</Pera>
         </CustomDiv>
 
         {/* Image */}
-        <div className="relative m-auto w-[65%]  h-[400px] mb-[50px]">
-        <div className="left-border absolute top-[-30px] left-[-30px] h-[150px] w-[150px] ">
+        <div className="relative m-auto w-full md:w-[65%]  h-[400px] mb-[50px]">
+        <div className="left-border hidden md:block absolute top-[-30px] left-[-30px] h-[150px] w-[150px] ">
         <div className="before:block before:w-full before:h-[1px] before:bg-[#A39264] before:absolute before:left-[-15px] before:top-[6px]"></div>
         <div className="after:block after:w-[1px] after:h-[150px] after:bg-[#A39264] after:absolute after:top-[-20px] after:left-[6px]"></div>
   </div>
-        <div className="right-border absolute bottom-[-30px] right-[-30px] h-[150px] w-[150px] ">
+        <div className="right-border hidden md:block absolute bottom-[-30px] right-[-30px] h-[150px] w-[150px] ">
         <div className="before:block before:w-full before:h-[1px] before:bg-[#A39264] before:absolute before:right-[-15px] before:bottom-[6px]"></div>
         <div className="after:block after:w-[1px] after:h-[150px] after:bg-[#A39264] after:absolute after:bottom-[-20px] after:right-[6px]"></div>
   </div>
@@ -42,14 +42,14 @@ const Residences = () => {
         </div>
 
         {/* Second Heading */}
-        <CustomDiv CustomClass="mb-[50px]">
-            <Price text={'king of all residences'}/>
+        <CustomDiv CustomClass="mb-[20px] md:mb-[50px]">
+            <Price text={'king of all residences'} firstText="!text-[22px]" OtherText="!text-[20px]"/>
           {/* <Pera CustomClass="text-[24px]">king of all residences</Pera> */}
           <BorderBottom CustomClass={'w-[300px] mt-2'}/>
         </CustomDiv>
 
         {/* Two Paragraphs Side by Side */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px] w-[65%] mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px] md-gap-[50px] w-full px-[15px] md:px-[0] md:w-[65%] mx-auto">
           <Pera2>
           Welcome to DN Kingsland, Odisha's first and only high-rise luxury residential development since 1960. Rising proudly in the heart of Janpath, Shaheed Nagar, Annexe Bhubaneswar, DN Kingsland isn't just a residence—it's a landmark.
           </Pera2>

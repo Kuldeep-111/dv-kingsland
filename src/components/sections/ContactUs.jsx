@@ -8,11 +8,11 @@ import CustomForm from "../CustomForm";
 
 const ContactUs = () => {
   return (
-    <section className="py-[50px] bg-[#EBEAE6]">
-      <div className="container mx-auto">
+    <section className="py-[50px] px-[15px] md:px-[0] bg-[#EBEAE6]" id="contact">
+      <div className="container mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px]">
           {/* Left Section */}
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 ">
             <div CustomClass="mb-[30px]">
               <Price
                 text={"Get in Touch"}
@@ -28,7 +28,9 @@ const ContactUs = () => {
               </div>
             </div>
 
-            {/* Contact Numbers */}
+            <div className="flex justify-between relative ">
+              <div className="flex flex-col gap-6 justify-center">
+                {/* Contact Numbers */}
             <div className="flex items-center gap-4">
               <a
                 href="tel:+911234567890"
@@ -57,16 +59,29 @@ const ContactUs = () => {
                 <span className="text-[18px]">+91 888-888-8888</span>
               </a>
             </div>
+              </div>
+              <div className="absolute right-[72px] top-[-36px] w-[150px] h-[150px] md:relative md:w-[250px] md:h-[250px]">
+
+                                <Image
+                                  src="/assets/images/location/bg1.png"
+                                  alt="Decoration"
+                                  fill
+                                  className="object-contain"
+                                />
+                              </div>
+            </div>
+
+            
 
             {/* RERA Number */}
-            <div className="bg-[#705118] text-white p-4 w-[80%] mt-[40px]">
+            <div className="bg-[#705118] text-white p-4 w-[80%] mt-[40px] mx-auto md:mx-[0]">
               <p className="text-[18px] text-center">
                 Rera no. MP/19/2023/01042
               </p>
             </div>
 
             {/* Website Link */}
-            <div className="flex items-center gap-4">
+            <div className="flex flex-wrap justify-center md:justify-start md:flex-nowrap items-center gap-4">
               Rera website link :
               <a
                 href="https://www.example.com"

@@ -31,7 +31,7 @@ const amenitiesData = [
 
 const Amenities = () => {
   return (
-<section className="py-[50px] bg-[#EBEAE6] relative">
+<section className="py-[50px] bg-[#EBEAE6] relative" id="amenities">
   {/* Background Image */}
   <div className="absolute inset-0 z-0">
     <Image
@@ -50,7 +50,7 @@ const Amenities = () => {
       <BorderBottom CustomClass={'w-[250px] mt-2'} isWhite={true} />
     </CustomDiv>
 
-    <div className="w-[60%] mx-auto">
+    <div className="w-full md:w-[60%] mx-auto px-[15px] md:px-[0]">
       <Pera2 CustomClass="text-center !text-white mb-[25px]">
         At DN Kingsland, Odisha, amenities transcend the ordinary—they're thoughtfully curated experiences tailored for a refined lifestyle. Welcome to a world where luxury meets legacy.
       </Pera2>

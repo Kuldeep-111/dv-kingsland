@@ -22,15 +22,15 @@ const servicesRight = [
     "Wealth Mgmt.",
   ];
 
-const Services = () => {
+const Services = ({onEnquireClick}) => {
   return (
-    <section className="py-[50px] bg-[#EBEAE6] relative">
+    <section className="py-[50px] bg-[#EBEAE6] relative" id="services">
  <Image 
   src="/assets/images/services/bg.png" 
   alt="background image" 
   width={100}   // specify width
   height={200}  // specify height
-  className="absolute top-[44%] left-0"
+  className="absolute top-[44%] left-0 hidden md:block"
   priority // if you want to load early (optional)
 />
 
@@ -39,7 +39,7 @@ const Services = () => {
   alt="background image mirrored" 
   width={100}
   height={200}
-  className="absolute top-[44%] right-0 transform scale-x-[-1]"
+  className="absolute top-[44%] right-0 transform scale-x-[-1] hidden md:block"
   priority
 />
       <div className="container mx-auto relative">
@@ -52,7 +52,7 @@ const Services = () => {
         </CustomDiv>
 
         {/* Paragraph */}
-        <div className="w-[60%] mx-auto mb-[50px]">
+        <div className="w-full md:w-[60%] mx-auto mb-[50px] px-[15px] md:px-[0]">
           <Pera2 CustomClass="text-center">
             At DN Kingsland, Odisha, services transcend the ordinary—they're
             thoughtfully curated experiences tailored for a refined lifestyle.
@@ -61,9 +61,9 @@ const Services = () => {
         </div>
 
         {/* Three Column Layout */}
-        <div className="grid grid-cols-[30%_40%_30%] text-center">
+        <div className="grid md:grid-cols-[30%_40%_30%] text-center">
           {/* Left Column (30%) */}
-          <div className="relative h-[400px]">
+          <div className="relative h-[400px] hidden md:block">
             <ul>
               {servicesLeft.map((service, index) => (
                 <li
@@ -88,7 +88,7 @@ const Services = () => {
           </div>
 
           {/* Right Column (30%) */}
-          <div className="relative h-[400px]">
+          <div className="relative h-[400px] hidden md:block">
           <ul>
               {servicesRight.map((service, index) => (
                 <li
@@ -103,9 +103,34 @@ const Services = () => {
           </div>
         </div>
 
+        {/* for mobile  */}
+        <div className="flex justify-center md:hidden px-[15px] mt-[20px]">
+        <ul className="w-1/2">
+              {servicesLeft.map((service, index) => (
+                <li
+                  key={index}
+                  className="relative text-center border-b-1 border-r-1 border-[#CFCFCF] pb-2 pr-6 pt-[30px]"
+                >
+                  {service}
+                  
+                </li>
+              ))}
+            </ul>
+            <ul className="w-1/2">
+              {servicesRight.map((service, index) => (
+                <li
+                  key={index}
+                  className="relative text-center border-b-1 border-[#CFCFCF] pb-2 pr-6 mt-[30px]"
+                >
+                  {service}
+                   </li>
+              ))}
+            </ul>
+        </div>
+
         {/* Enquiry Button */}
         <div className="flex justify-center mt-[50px]">
-          <EnquiryButton />
+          <EnquiryButton  onClick={onEnquireClick} />
         </div>
       </div>
     </section>
