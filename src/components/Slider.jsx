@@ -52,7 +52,7 @@ const Slider = ({ items = [],isJourney=false,CustomClass ,CustomHeight}) => {
               </div>
               {/* Title below the image */}
               {item.title && (
-                <div className="mt-[50px] text-center">
+                <div className="mt-[25px] md:mt-[50px] text-center">
                   <h3 className="text-xl font-semibold py-[12px] px-[55px] tracking-[2px] bg-white">{item.title}</h3>
                 </div>
               )}
@@ -75,11 +75,11 @@ const Slider = ({ items = [],isJourney=false,CustomClass ,CustomHeight}) => {
         </> : <>
         
         
-        <div className="swiper-button-prev !w-[40px] !h-[40px] border border-white rounded-full !text-white flex items-center justify-center absolute !left-[7%] md:!left-[14.2%] !top-[40%] md:!top-1/2 transform -translate-y-1/2">
+        <div className="swiper-button-prev !w-[40px] !h-[40px] border border-white rounded-full !text-white flex items-center justify-center absolute !left-[7%] md:!left-[14.2%] !top-[47%] md:!top-1/2 transform -translate-y-1/2">
         <Image src='/assets/icons/left-arrow.png' alt="Previous" width={20} height={20} />
         </div>
         
-        <div className="swiper-button-next !w-[40px] !h-[40px] border border-white rounded-full !text-white flex items-center justify-center absolute !right-[7%] md:!right-[14.2%] !top-[40%] md:!top-1/2 transform -translate-y-1/2">
+        <div className="swiper-button-next !w-[40px] !h-[40px] border border-white rounded-full !text-white flex items-center justify-center absolute !right-[7%] md:!right-[14.2%] !top-[47%] md:!top-1/2 transform -translate-y-1/2">
         <Image src='/assets/icons/right-arrow.png' alt="Next" width={20} height={20} />
         </div>
         </>}

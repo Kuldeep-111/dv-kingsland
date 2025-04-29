@@ -56,7 +56,7 @@ const Amenities = () => {
       </Pera2>
     </div>
   </div>
-  <Slider items={amenitiesData} CustomHeight="!h-[250px]"/>
+  <Slider items={amenitiesData} CustomHeight="!h-[350px]"/>
 </section>
 
   )
