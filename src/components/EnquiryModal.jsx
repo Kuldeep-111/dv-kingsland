@@ -15,11 +15,11 @@ const EnquiryModal = ({ isOpen, onClose }) => {
       ></div>
 
       {/* Modal Content */}
-      <div className="relative bg-white rounded-lg p-8 max-w-[600px] w-[90%] mx-auto z-10">
+      <div className="relative bg-[#EBEAE6] p-8 max-w-[600px] w-[90%] mx-auto z-10">
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
+          className="absolute bg-[#705118] p-2 rounded-full top-3 right-3 text-white  hover:text-gray-100"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ const EnquiryModal = ({ isOpen, onClose }) => {
         </button>
 
         {/* Form */}
-        <div className="mt-4">
+        <div className="mt-4 ">
           <CustomForm />
         </div>
       </div>

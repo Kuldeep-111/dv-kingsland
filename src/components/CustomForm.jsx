@@ -35,7 +35,7 @@ const CustomForm = ({CustomClass}) => {
       <div className="flex items-start gap-3">
         <input type="checkbox" id="consent" className="mt-2" />
         <label htmlFor="consent" className="text-[14px]">
-            <Pera2 CustomClass="!leading-[24px] !text-[12px] !tracking-[0px]">
+            <Pera2 CustomClass="!leading-[24px] !text-[12px] !tracking-[0px] !text-center">
           I authorize company representatives to Call, SMS, Email or
           WhatsApp me about its products and offers. This consent
           overrides any registration for DNC/NDNC.</Pera2>
