@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel';
+}
+*{
+  /* margin: 0;
+  padding: 0; */
+  /* box-sizing: border-box; */
+  font-family: 'Cinzel';
+}
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Cinzel';
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/fonts/Cinzel-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/fonts/Cinzel-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/fonts/Cinzel-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/fonts/Cinzel-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/fonts/Cinzel-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/fonts/Cinzel-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/* swiper */
+
+.Slide_Content p {
+  position: relative;
+    width: fit-content;
+    margin: auto;
+    padding: 2px 10px;
+    z-index: 1;
+}
+
+.Slide_Content p::before {
+  content: '';
+  background-color: #fff;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;  /* adjust based on where you want the line to appear */
+  left: 0;
+  z-index: -1;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after{
+  display: none;
+}
+
+
+.swiper-slide-next > div,.swiper-slide-prev > div{
+  height: 75%;
+  margin: auto;
+}

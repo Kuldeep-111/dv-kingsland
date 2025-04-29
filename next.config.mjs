@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    eslint: {
+      ignoreDuringBuilds: true,
+    },
+    basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+  };
+  
+  export default nextConfig;
+  
