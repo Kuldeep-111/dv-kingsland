@@ -64,7 +64,7 @@ const FloorPlan = ({onEnquireClick}) => {
         </div>
 
         {/* Desktop Image Container */}
-        <div className="hidden md:block relative w-full h-[600px]">
+        <div className="hidden md:block relative w-[80%] mx-auto h-[450px]">
           {/* Blur Overlay */}
           {isBlurred && (
             <div className="absolute inset-0 bg-black/30 backdrop-blur-md z-10 flex items-center justify-center">

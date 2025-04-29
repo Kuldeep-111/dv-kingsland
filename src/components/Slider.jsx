@@ -46,14 +46,14 @@ const Slider = ({ items = [],isJourney=false,CustomClass ,CustomHeight}) => {
                 {/* Description */}
                 {item.description && (
                   <div className="Slide_Content absolute bottom-0 left-0 right-0 p-4 text-center">
-                    <p className="text-lg text-black text-[14px] md:text-[18px]">{item.description}</p>
+                    <p className="text-lg text-black text-[14px] md:text-[18px] px-[20px] py-[10px]" >{item.description}</p>
                   </div>
                 )}
               </div>
               {/* Title below the image */}
               {item.title && (
                 <div className="mt-[25px] md:mt-[50px] text-center">
-                  <h3 className="text-xl font-semibold py-[12px] px-[55px] tracking-[2px] bg-white">{item.title}</h3>
+                  <h3 className="text-xl font-semibold py-[12px] px-[35px] md:px-[55px] tracking-[2px] bg-white">{item.title}</h3>
                 </div>
               )}
             </div>

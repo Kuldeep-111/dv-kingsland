@@ -50,7 +50,7 @@ const VirtualJourney = () => {
 
         {/* View All Button */}
         <div className="flex justify-center mt-[30px]">
-          <button className="bg-[#705118] text-white px-8 py-3  hover:bg-[#8a6a2b] transition-all duration-300">
+          <button className="bg-[#705118] text-[20px] tracking-[2px] text-white px-8 py-3  hover:bg-[#8a6a2b] transition-all duration-300">
             View All
           </button>
         </div>

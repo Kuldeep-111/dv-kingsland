@@ -47,7 +47,7 @@ const OurPricing = ({onEnquireClick}) => {
         <img
           src="/assets/images/pricing/image1.png"
           alt="Pricing Image"
-          fill
+          
           className="object-cover hidden md:block"
         />
 

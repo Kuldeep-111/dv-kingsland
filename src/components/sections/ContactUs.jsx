@@ -5,6 +5,7 @@ import BorderBottom from "../utilities/BorderBottom";
 import Image from "next/image";
 import CallButton from "../utilities/CallButton";
 import CustomForm from "../CustomForm";
+import Link from "next/link";
 
 const ContactUs = () => {
   return (
@@ -16,7 +17,7 @@ const ContactUs = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px]">
           {/* Left Section */}
           <div className="flex flex-col gap-6 ">
-            <div CustomClass="mb-[30px]">
+            <div className="mb-[30px]">
               <Price
                 text={"Get in Touch"}
                 firstText="text-[46px]"
@@ -122,12 +123,10 @@ const ContactUs = () => {
         {/* Footer */}
         <div className="mt-[30px] text-center ">
           <p className="text-[14px] text-[#000000] font-montserrat font-medium">
-            <a
-              href="#"
-              className="hover:underline text-[#705118] font-montserrat"
-            >
+            <Link  href="/disclaimer"
+              className="hover:underline text-[#705118] font-montserrat">
               Disclaimer & Privacy Policy
-            </a>{" "}
+            </Link>{" "}
             | Copyright ©DN Kingsland 2025. All Rights Reserved | Crafted by{" "}
             <a
               href="https://www.gtftechnologies.com/"
