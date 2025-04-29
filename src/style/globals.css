@@ -27,7 +27,9 @@ body {
 a{
   cursor: pointer;
 }
-
+button{
+  cursor: pointer;
+}
 @font-face {
   font-family: 'Cinzel';
   src: url('/fonts/Cinzel-Regular.ttf') format('truetype');

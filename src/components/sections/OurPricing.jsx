@@ -7,7 +7,7 @@ import EnquiryButton from '../utilities/EnquiryButton'
 
 const OurPricing = ({onEnquireClick}) => {
   return (
-    <section className="pt-[50px] bg-[#EBEAE6] relative" id="pricing">
+    <section className="pt-[80px] bg-[#EBEAE6] relative" id="pricing">
       <Image
         src="/assets/images/services/bg.png"
         alt="background image"
@@ -34,7 +34,7 @@ const OurPricing = ({onEnquireClick}) => {
 
         {/* Paragraph */}
         <div className=" w-full md:w-[60%] mx-auto mb-[50px] px-[15px] md:px-[0]">
-          <Pera2 CustomClass="text-center">
+          <Pera2 CustomClass="!text-center">
             At DN Kingsland, Odisha, we offer premium residences that redefine
             luxury living. Our pricing reflects the exceptional quality, prime
             location, and world-class amenities that come with every residence.
@@ -53,21 +53,21 @@ const OurPricing = ({onEnquireClick}) => {
 
 
         <div className="absolute top-0 left-0 w-full hidden md:flex justify-center align-center h-full">
-        <div className="w-full flex flex-col items-center justify-center text-center gap-[10px] h-[80%]">
+        <div className="w-full flex flex-col items-center justify-center text-center gap-[0px] h-[80%]">
             <Price text={" 4 BHK"} />
-            <BorderBottom CustomClass={"w-[200px]"} />
-            <Pera>3930 - 4070 SQ.FT.</Pera>
-            <Price text={" ₹ 5.10 cr*"} />
-            <span>onwards</span>
-            <EnquiryButton onClick={onEnquireClick}/>
+            <BorderBottom CustomClass={"w-[200px] mt-[1px]"} />
+            <Pera CustomClass={"mt-[20px]"}>3930 - 4070 SQ.FT.</Pera>
+            <Price text={" ₹ 5.10 cr*"} CustomClass="leading-[30px] mt-[20px]"/>
+            <span className='mt-[5px]'>onwards</span>
+            <EnquiryButton CustomClass={"mt-[20px]"} onClick={onEnquireClick}/>
           </div>
-          <div className="w-full flex flex-col items-center justify-center text-center gap-[10px] h-[80%]">
+          <div className="w-full flex flex-col items-center justify-center text-center gap-[0px] h-[80%]">
             <Price text={" 5 BHK"} />
-            <BorderBottom CustomClass={"w-[200px]"} />
-            <Pera>4370 - 4760 SQ.FT.</Pera>
-            <Price text={" ₹ 5.66 cr*"} />
-            <span>onwards</span>
-            <EnquiryButton onClick={onEnquireClick}/>
+            <BorderBottom CustomClass={"w-[200px]  mt-[1px]"} />
+            <Pera CustomClass={"mt-[20px]"}>4370 - 4760 SQ.FT.</Pera>
+            <Price text={" ₹ 5.66 cr*"} CustomClass="leading-[30px] mt-[20px]"/>
+            <span className='mt-[5px]'>onwards</span>
+            <EnquiryButton onClick={onEnquireClick} CustomClass={"mt-[20px]"}/>
           </div>
         </div>
         {/* mobile start */}

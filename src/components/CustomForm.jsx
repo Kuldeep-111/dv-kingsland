@@ -19,14 +19,14 @@ const CustomForm = () => {
             key={index}
             placeholder={field.placeholder}
             rows={field.rows}
-            className="w-full p-4 font-montserrat font-semibold border-0 border-b border-[#705118] bg-[#EBEAE6]  focus:outline-none focus:ring-2 focus:ring-[#705118] tracking-[2px] uppercase"
+            className="w-full text-[#705118] p-4 font-montserrat font-semibold border-0 border-b border-[#705118] bg-[#EBEAE6]  focus:outline-none focus:ring-2 focus:ring-[#705118] tracking-[2px] uppercase"
           ></textarea>
         ) : (
           <input
             key={index}
             type={field.type}
             placeholder={field.placeholder}
-            className="w-full p-4 font-montserrat font-semibold border-0 border-b border-[#705118] bg-[#EBEAE6] focus:outline-none focus:ring-0 focus:border-[#705118] tracking-[2px] uppercase"
+            className="w-full text-[#705118] p-4 font-montserrat font-semibold border-0 border-b border-[#705118] bg-[#EBEAE6] focus:outline-none focus:ring-0 focus:border-[#705118] tracking-[2px] uppercase"
           />
         )
       ))}

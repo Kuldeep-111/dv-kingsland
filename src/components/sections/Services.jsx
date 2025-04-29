@@ -24,7 +24,7 @@ const servicesRight = [
 
 const Services = ({onEnquireClick}) => {
   return (
-    <section className="py-[50px] bg-[#EBEAE6] relative" id="services">
+    <section className="pt-[80px] bg-[#EBEAE6] relative" id="services">
  <Image 
   src="/assets/images/services/bg.png" 
   alt="background image" 
@@ -68,7 +68,7 @@ const Services = ({onEnquireClick}) => {
               {servicesLeft.map((service, index) => (
                 <li
                   key={index}
-                  className="relative text-center border-b-2 border-[#705118] pb-2 pr-6 mt-[45px]"
+                  className="relative text-center text-[16px] text-nowrap md:text-[20px] lg:text-[24px]  border-b-2 border-[#705118] pb-2 pr-6 mt-[45px]"
                 >
                   {service}
                   <span className="absolute left-0 bottom-[-8px] -translate-y-1/2 w-2 h-2 bg-[#705118] rounded-full"></span>
@@ -78,7 +78,7 @@ const Services = ({onEnquireClick}) => {
           </div>
 
           {/* Middle Column (40%) */}
-          <div className="relative h-[500px]">
+          <div className="relative h-[400px] md:h-[600px]">
             <Image
               src="/assets/images/services/image1.png"
               alt="Center Service"
@@ -93,7 +93,7 @@ const Services = ({onEnquireClick}) => {
               {servicesRight.map((service, index) => (
                 <li
                   key={index}
-                  className="relative text-center border-b-2 border-[#705118] pb-2 pr-6 mt-[45px]"
+                  className="relative text-[16px] text-nowrap md:text-[20px] lg:text-[24px]  text-center border-b-2 border-[#705118] pb-2 pr-6 mt-[45px]"
                 >
                   {service}
                   <span className="absolute right-0 bottom-[-8px] -translate-y-1/2 w-2 h-2 bg-[#705118] rounded-full"></span>
@@ -109,7 +109,7 @@ const Services = ({onEnquireClick}) => {
               {servicesLeft.map((service, index) => (
                 <li
                   key={index}
-                  className="relative text-center border-b-1 border-r-1 border-[#CFCFCF] pb-2 pr-6 pt-[30px]"
+                  className="relative text-center text-[14px] flex items-end justify-center min-h-[60px] border-b-1 border-r-1 border-[#CFCFCF] pb-2  "
                 >
                   {service}
                   
@@ -120,7 +120,7 @@ const Services = ({onEnquireClick}) => {
               {servicesRight.map((service, index) => (
                 <li
                   key={index}
-                  className="relative text-center border-b-1 border-[#CFCFCF] pb-2 pr-6 mt-[30px]"
+                  className="relative text-center flex text-[14px] items-end justify-center min-h-[60px] border-b-1  border-[#CFCFCF] pb-2  "
                 >
                   {service}
                    </li>

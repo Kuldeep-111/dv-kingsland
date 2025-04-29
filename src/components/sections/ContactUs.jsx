@@ -8,7 +8,10 @@ import CustomForm from "../CustomForm";
 
 const ContactUs = () => {
   return (
-    <section className="py-[50px] px-[15px] md:px-[0] bg-[#EBEAE6]" id="contact">
+    <section
+      className="pt-[80px] pb-[50px] px-[15px] md:px-[0] bg-[#EBEAE6]"
+      id="contact"
+    >
       <div className="container mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px]">
           {/* Left Section */}
@@ -18,7 +21,6 @@ const ContactUs = () => {
                 text={"Get in Touch"}
                 firstText="text-[46px]"
                 CustomClass="!justify-start"
-
               />
               <div className="flex items-center justify-start gap-[30px] ps-[40px]">
                 <div
@@ -31,47 +33,44 @@ const ContactUs = () => {
             <div className="flex justify-between relative ">
               <div className="flex flex-col gap-6 justify-center">
                 {/* Contact Numbers */}
-            <div className="flex items-center gap-4">
-              <a
-                href="tel:+911234567890"
-                className="flex items-center gap-2"
-                target="_blank"
-              >
-                <CallButton
-                  CustomClass="rounded-full w-[40px] h-[40px]"
-                  IconClass="!w-[16px]"
-                />
-                <span className="text-[18px]">+91 1234567890</span>
-              </a>
-            </div>
-            <div className="flex items-center gap-4">
-              <a
-                href="https://wa.me/918888888888"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2"
-              >
-                <CallButton
-                  CustomClass="rounded-full w-[40px] h-[40px]"
-                  IconUrl="/assets/icons/whatsapp.png"
-                  IconClass="!w-[18px]"
-                />
-                <span className="text-[18px]">+91 888-888-8888</span>
-              </a>
-            </div>
+                <div className="flex items-center gap-4">
+                  <a
+                    href="tel:+911234567890"
+                    className="flex items-center gap-2"
+                    target="_blank"
+                  >
+                    <CallButton
+                      CustomClass="rounded-full w-[40px] h-[40px]"
+                      IconClass="!w-[16px]"
+                    />
+                    <span className="text-[18px]">+91 1234567890</span>
+                  </a>
+                </div>
+                <div className="flex items-center gap-4">
+                  <a
+                    href="https://wa.me/918888888888"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2"
+                  >
+                    <CallButton
+                      CustomClass="rounded-full w-[40px] h-[40px]"
+                      IconUrl="/assets/icons/whatsapp.png"
+                      IconClass="!w-[18px]"
+                    />
+                    <span className="text-[18px]">+91 888-888-8888</span>
+                  </a>
+                </div>
               </div>
               <div className="absolute right-[72px] top-[-36px] w-[150px] h-[150px] md:relative md:w-[250px] md:h-[250px]">
-
-                                <Image
-                                  src="/assets/images/location/bg1.png"
-                                  alt="Decoration"
-                                  fill
-                                  className="object-contain"
-                                />
-                              </div>
+                <Image
+                  src="/assets/images/location/bg1.png"
+                  alt="Decoration"
+                  fill
+                  className="object-contain"
+                />
+              </div>
             </div>
-
-            
 
             {/* RERA Number */}
             <div className="bg-[#705118] text-white p-4 w-[80%] mt-[40px] mx-auto md:mx-[0]">
@@ -94,7 +93,7 @@ const ContactUs = () => {
 
           {/* Right Section - Contact Form */}
           <div className="flex flex-col gap-6">
-            <CustomForm/>
+            <CustomForm />
           </div>
         </div>
 

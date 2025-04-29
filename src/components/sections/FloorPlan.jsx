@@ -35,7 +35,7 @@ const FloorPlan = ({onEnquireClick}) => {
   }
 
   return (
-    <section className="py-[50px] bg-[#EBEAE6] relative" id="floorplan">
+    <section className="pt-[80px] bg-[#EBEAE6] relative" id="floorplan">
       <div className="container mx-auto">
         {/* Top Heading */}
         <CustomDiv CustomClass="mb-[50px]">
@@ -52,7 +52,7 @@ const FloorPlan = ({onEnquireClick}) => {
                 setActiveTab(plan.id)
                 setIsBlurred(true)
               }}
-              className={`px-6 py-2 transition-all duration-300 ${
+              className={`px-6 py-2 transition-all duration-300 py-[12px] px-[55px] tracking-[2px] ${
                 activeTab === plan.id
                   ? 'bg-[#705118] text-white'
                   : 'bg-white text-[#705118] hover:bg-[#705118] hover:text-white'

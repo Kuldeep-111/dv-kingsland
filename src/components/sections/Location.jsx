@@ -6,12 +6,12 @@ import Image from "next/image";
 
 const Location = ({onEnquireClick}) => {
   return (
-    <section className="py-[50px] bg-[#EBEAE6]" id="location">
+    <section className="py-[80px] bg-[#EBEAE6]" id="location">
       <div className="container mx-auto">
         {/* Top Heading */}
         <CustomDiv CustomClass="mb-[50px]">
           <Price text={"Prime Location"} />
-          <BorderBottom CustomClass={"w-[250px] mt-2"} />
+          <BorderBottom CustomClass={"w-[250px] mt-2 mb-2 !h-[2px]"} />
         </CustomDiv>
       </div>
 
@@ -25,9 +25,9 @@ const Location = ({onEnquireClick}) => {
         />
 
         <div className="container mx-auto relative z-10 py-[50px]">
-          <div className="grid grid-cols-1 md:grid-cols-[60%_40%] gap-[50px]">
+          <div className="grid grid-cols-1 md:grid-cols-12  gap-[50px]">
             {/* Left Section - Map */}
-            <div className="relative order-2 md:order-1 h-[300px] md:h-[500px]">
+            <div className="relative  md:col-span-6 order-2 md:order-1 h-[300px] md:h-[500px]">
               <Image
                 src="/assets/images/location/map.png"
                 alt="Location Map"
@@ -38,22 +38,24 @@ const Location = ({onEnquireClick}) => {
             </div>
 
             {/* Right Section - Content */}
-            <div className="flex order-1 md:order-2 flex-col justify-center px-[15px] md:px-[0]">
+            <div className="flex order-1  md:col-span-6 md:order-2 flex-col justify-center px-[15px] md:px-[0]">
               <Price
                 text={
-                  "ROYALS SHOULD NOT WAIT. LEADING THE WAY IN SUPERIOR CONNECTIVITY."
+                  "ROYALS SHOULD NOT WAIT.  LEADING THE WAY IN  SUPERIOR CONNECTIVITY."
                 }
-                CustomClass={"mb-4 !text-black font-normal !text-[24px]"}
+                CustomClass={" !text-black font-normal justify-start pr-[15px]"}
+                firstText="!text-[26px]"
+                OtherText="!text-[24px]"
               />
-              <Pera2 CustomClass="mb-6">
+              <Pera2 CustomClass="mt-[20px]">
                 The Only High-Rise Luxury Landmark in Central Bhubaneswar since
                 1960 crafted for those who desire the extraordinary.
               </Pera2>
-              <div className=" hidden md:flex items-center gap-4 mt-3 ">
-                <button className="bg-[#705118] text-white w-[200px] h-[40px] cursor-pointer" onClick={onEnquireClick}>
+              <div className="relative hidden md:flex items-center gap-4 mt-[40px] ">
+                <button className="bg-[#705118] text-white w-[240px] h-[45px] mt-[40px] cursor-pointer" onClick={onEnquireClick}>
                   View Location Map
                 </button>
-                <div className="relative w-[250px] h-[250px]">
+                <div className="absolute right-0 top-[-20%] w-[250px] h-[250px]">
                   <Image
                     src="/assets/images/location/bg1.png"
                     alt="Decoration"
@@ -65,7 +67,7 @@ const Location = ({onEnquireClick}) => {
             </div>
             
           </div>
-          <button className="bg-[#705118] text-white w-[200px] mt-[40px] mx-auto h-[40px] cursor-pointer block md:hidden" onClick={onEnquireClick}>
+          <button className="bg-[#705118] text-white py-[12px] px-[55px]   mt-[80px] mx-auto  cursor-pointer block md:hidden" onClick={onEnquireClick}>
                   View Location Map
                 </button>
           

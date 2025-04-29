@@ -6,7 +6,7 @@ import Price from '../utilities/Price'
 
 const Residences = () => {
   return (
-    <section className="py-[50px] bg-[#EBEAE6] relative" id="residences">
+    <section className="py-[80px] bg-[#EBEAE6] relative" id="residences">
       <img 
         src="/assets/images/residences/bg.png" 
         alt="background image" 

@@ -15,7 +15,7 @@ const Hero = ({ onEnquireClick }) => {
       <WhatsappButton />
 
       <Image
-        src="/assets/images/hero1.png"
+        src="/assets/images/hero11.png"
         alt="Hero Image"
         layout="fill"
         objectFit="cover"
@@ -43,12 +43,20 @@ const Hero = ({ onEnquireClick }) => {
         </div>
       </div>
           {/* Mobile bottom content */}
+          
           <CustomDiv CustomClass="  flex md:hidden flex-col justify-start">
           <Pera CustomClass={"text-[24px]"}>Odisha's Most</Pera>
           <Price text={" Expensive & Largest"} />
           <Pera>Residences</Pera>
         </CustomDiv>
-      <img src="/assets/images/mobile_hero.png" alt="mobile hero" className="block md:hidden"/>
+        <div className="relative block md:hidden ">
+        <img src="/assets/images/mobile_hero.png" alt="mobile hero" className="block md:hidden w-full"/>
+        <CustomDiv CustomClass="right h-full ml-auto w-1/2 flex flex-col justify-start absolute top-[30%] right-0">
+            <Pera>First & Last</Pera>
+            <Price text={" Since 1960"} />
+            <BorderBottom />
+          </CustomDiv>
+        </div>
 <div className=" w-full px-4 block md:hidden mt-[30px]">
   <div className="flex flex-col items-start gap-4">
     <CustomDiv CustomClass="left w-full flex flex-col justify-start">
