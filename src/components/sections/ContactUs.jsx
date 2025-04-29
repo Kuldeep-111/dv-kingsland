@@ -93,7 +93,7 @@ const ContactUs = () => {
 
           {/* Right Section - Contact Form */}
           <div className="flex flex-col gap-6">
-            <CustomForm />
+            <CustomForm CustomClass="!ml-auto !mr-0"/>
           </div>
         </div>
 
@@ -101,7 +101,7 @@ const ContactUs = () => {
 
         <BorderBottom CustomClass={"w-full mt-[70px]"} />
         <div className="mt-[50px]">
-          <Pera2 CustomClass="text-[12px] text-center">
+          <Pera2 CustomClass="!text-[12px] !leading-[25px] !text-center">
             This is only for information purposes and does not constitute any
             offer or contract. Customers are advised to have their independent
             evaluation. Artistic impression as shown is a pictorial

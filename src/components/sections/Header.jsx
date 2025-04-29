@@ -48,6 +48,8 @@ const Header = () => {
                 target="_blank"
               >
             <CallButton/>
+            
+            </a>
             <button 
               onClick={() => setIsSidebarOpen(true)}
               className='w-[30px] ml-4'
@@ -59,7 +61,6 @@ const Header = () => {
                 height={30}
               />
             </button>
-            </a>
           </div>
         </div>
       </header>

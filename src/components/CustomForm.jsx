@@ -1,7 +1,7 @@
 import React from 'react'
 import { Pera2 } from './utilities/CustomTag'
 
-const CustomForm = () => {
+const CustomForm = ({CustomClass}) => {
   // Array of form fields with their configurations
   const fields = [
     { type: 'text', placeholder: 'Name' },
@@ -11,7 +11,7 @@ const CustomForm = () => {
   ]
 
   return (
-    <form className="flex flex-col  gap-6 border-2 border-[#705118] pt-[40px] pr-[50px] pb-[40px] pl-[50px] bg-[#7051181A] w-full max-w-[500px] mx-auto">
+    <form className={`flex flex-col  gap-6 border-2 border-[#705118] pt-[40px] pr-[50px] pb-[40px] pl-[50px] bg-[#7051181A] w-full max-w-[500px] mx-auto ${CustomClass}`}>
       {/* Dynamically render form fields */}
       {fields.map((field, index) => (
         field.type === 'textarea' ? (

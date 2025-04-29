@@ -68,7 +68,7 @@ const Services = ({onEnquireClick}) => {
               {servicesLeft.map((service, index) => (
                 <li
                   key={index}
-                  className="relative text-center text-[16px] text-nowrap md:text-[20px] lg:text-[24px]  border-b-2 border-[#705118] pb-2 pr-6 mt-[45px]"
+                  className="relative text-center text-[16px] text-nowrap md:text-[20px] lg:text-[20px]  border-b-2 border-[#705118] pb-2 pr-6 mt-[45px]"
                 >
                   {service}
                   <span className="absolute left-0 bottom-[-8px] -translate-y-1/2 w-2 h-2 bg-[#705118] rounded-full"></span>
@@ -93,7 +93,7 @@ const Services = ({onEnquireClick}) => {
               {servicesRight.map((service, index) => (
                 <li
                   key={index}
-                  className="relative text-[16px] text-nowrap md:text-[20px] lg:text-[24px]  text-center border-b-2 border-[#705118] pb-2 pr-6 mt-[45px]"
+                  className="relative text-[16px] text-nowrap md:text-[20px] lg:text-[20px]  text-center border-b-2 border-[#705118] pb-2 pr-6 mt-[45px]"
                 >
                   {service}
                   <span className="absolute right-0 bottom-[-8px] -translate-y-1/2 w-2 h-2 bg-[#705118] rounded-full"></span>
