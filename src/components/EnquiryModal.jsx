@@ -16,7 +16,7 @@ const EnquiryModal = ({ isOpen, onClose }) => {
       ></div>
 
       {/* Modal Content */}
-      <div className="relative bg-[#EBEAE6] p-8 max-w-[600px] w-[90%] mx-auto z-10">
+      <div className="relative bg-[#EBEAE6] p-4 md:p-8 max-w-[600px] w-[90%] mx-auto z-10">
         <div className='flex justify-between px-[20px] items-center'>
         <div className='w-[150px]'>
                     <Image 

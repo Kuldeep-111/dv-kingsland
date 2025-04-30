@@ -11,7 +11,7 @@ const CustomForm = ({CustomClass}) => {
   ]
 
   return (
-    <form className={`flex flex-col  gap-6 border-2 border-[#705118] pt-[40px] pr-[50px] pb-[40px] pl-[50px] bg-[#7051181A] w-full max-w-[500px] mx-auto ${CustomClass}`}>
+    <form className={`flex flex-col  gap-6 border-2 border-[#705118] py-[20px] px-[30px] md:py-[40px] md:px-[50px]  bg-[#7051181A] w-full max-w-[500px] mx-auto ${CustomClass}`}>
       {/* Dynamically render form fields */}
       {fields.map((field, index) => (
         field.type === 'textarea' ? (
