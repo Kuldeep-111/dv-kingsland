@@ -9,123 +9,119 @@ import Slider from '../Slider'
 const amenitiesData = [
   {
     image: '/assets/images/ameneties/bardeque_lounge.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Barbecue Lounge'
   },
   {
     image: '/assets/images/ameneties/bay_seating.webp',
-    title: 'The Expansive Living & Dining Experience'
+    title: 'Bay Seating'
   },
   {
     image: '/assets/images/ameneties/canopy_deck.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Canopy Deck'
   },
   {
     image: '/assets/images/ameneties/conference_hall.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Conference Hall'
   },
   {
     image: '/assets/images/ameneties/creative_zone.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Creative Zone'
   },
   {
     image: '/assets/images/ameneties/dining_area.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Dining Area'
   },
   {
     image: '/assets/images/ameneties/eco_courtyard.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Eco Courtyard'
   },
   {
     image: '/assets/images/ameneties/function_hall.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Function Hall'
   },
   {
     image: '/assets/images/ameneties/gym.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Gym '
   },
   {
     image: '/assets/images/ameneties/herhighness_zone.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Her Highness Zone'
   },
   {
     image: '/assets/images/ameneties/infinity_pool.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Infinity Pool'
   },
   {
     image: '/assets/images/ameneties/kid_zone.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Kid Zone'
   },
   {
     image: '/assets/images/ameneties/library.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Library'
   },
   {
     image: '/assets/images/ameneties/living_area.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Living Area'
   },
   {
     image: '/assets/images/ameneties/lobby_lounge.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Lobby Lounge'
   },
   {
     image: '/assets/images/ameneties/lobby_reception.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Lobby Reception'
   },
   {
     image: '/assets/images/ameneties/lounge_reception.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'BLounge Reception'
   },
   {
     image: '/assets/images/ameneties/mini_theatre.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Mini Theatre'
   },
   {
     image: '/assets/images/ameneties/movie_theatre.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Movie Theatre'
   },
   {
     image: '/assets/images/ameneties/mutlipurpose_hall.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Multipurpose'
   },
   {
     image: '/assets/images/ameneties/new_gate.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'New Gate'
   },
   {
     image: '/assets/images/ameneties/private_dining.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Private Dining'
   },
   {
     image: '/assets/images/ameneties/rooftop_pool.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Rooftop Pool'
   },
   {
     image: '/assets/images/ameneties/sky_bridge.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Sky Bridge'
   },
   {
     image: '/assets/images/ameneties/sky_dining.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Sky Dining'
   },
   {
     image: '/assets/images/ameneties/sky_library.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Sky Library'
   },
   {
     image: '/assets/images/ameneties/spa_saloon_reception.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Spa Saloon Reception'
   },
   {
     image: '/assets/images/ameneties/treatment_room.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'Treatment Room'
   },
   {
     image: '/assets/images/ameneties/white_gloves.webp',
-    title: 'Beautifully landscaped green gardens.'
-  },
-  {
-    image: '/assets/images/ameneties/sky_bridge.webp',
-    title: 'Beautifully landscaped green gardens.'
+    title: 'White Gloves'
   }
 ]
 
