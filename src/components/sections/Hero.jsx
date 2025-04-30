@@ -26,7 +26,7 @@ const Hero = ({ onEnquireClick }) => {
       <div className="parent hidden md:flex flex-col h-full w-full absolute left-0 top-0 pt-[90px] ">
         <CustomDiv CustomClass=" h-[35%] flex flex-col justify-start">
           <Pera CustomClass={"text-[24px]"}>Odisha's </Pera>
-          <Price text={"Most Largest & Expensive"} />
+          <Price text={"Largest & Most Expensive"} />
           <Pera>Residences</Pera>
           <EnquiryButton onClick={onEnquireClick} CustomClass="mt-[20px]"/>
         </CustomDiv>

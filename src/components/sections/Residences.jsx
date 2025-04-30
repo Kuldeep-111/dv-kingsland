@@ -58,14 +58,14 @@ const Residences = ({onEnquireClick}) => {
 
         {/* Second Heading */}
         <CustomDiv CustomClass="mb-[20px] md:mb-[25px] xll:mb-[50px]">
-          <EnquiryButton onClick={onEnquireClick} CustomClass="mb-[20px]"/>
-          <Price
+          <EnquiryButton onClick={onEnquireClick}/>
+          {/* <Price
             text={"king of all residences"}
             firstText="!text-[22px]"
             OtherText="!text-[20px]"
-          />
+          /> */}
           {/* <Pera CustomClass="text-[24px]">king of all residences</Pera> */}
-          <BorderBottom CustomClass={"w-[300px] mt-[5px]"} />
+          {/* <BorderBottom CustomClass={"w-[300px] mt-[5px]"} /> */}
         </CustomDiv>
 
         {/* Two Paragraphs Side by Side */}

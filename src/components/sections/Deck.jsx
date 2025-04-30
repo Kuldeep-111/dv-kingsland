@@ -20,7 +20,7 @@ const Deck = ({onEnquireClick}) => {
       {/* Headings - Absolutely Positioned */}
       <div className="absolute top-[150px] left-[50px] md:left-[100px] hidden md:flex flex-col items-center">
         <Pera CustomClass="text-[32px] mb-2">
-          The Most  <span className='text-[#A39264] text-[32px] font-bold'>Expensive</span> Living  
+          The Most  <span className='text-[#A39264] text-[32px] font-bold'>Expansive</span> Living  
         </Pera>
         <Pera CustomClass="text-[32px] mt-[20px]"> Now with a Deck </Pera>
         {/* <Price text={'king of all deck'} CustomClass={'mt-[42px] text-center'} firstText="!text-[26px]" OtherText="!text-[24px]"/> */}
