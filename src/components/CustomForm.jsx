@@ -11,7 +11,7 @@ const CustomForm = ({CustomClass}) => {
   ]
 
   return (
-    <form className={`flex flex-col  gap-6 border-2 border-[#705118] py-[20px] px-[30px] md:py-[40px] md:px-[50px]  bg-[#7051181A] w-full max-w-[500px] mx-auto ${CustomClass}`}>
+    <form className={`flex flex-col  gap-6 border-2 border-[#705118] py-[20px] px-[20px] md:py-[40px] md:px-[50px]  bg-[#7051181A] w-full max-w-[500px] mx-auto ${CustomClass}`}>
       {/* Dynamically render form fields */}
       {fields.map((field, index) => (
         field.type === 'textarea' ? (
@@ -19,23 +19,23 @@ const CustomForm = ({CustomClass}) => {
             key={index}
             placeholder={field.placeholder}
             rows={field.rows}
-            className="w-full text-[#705118] p-4 font-montserrat font-semibold border-0 border-b border-[#705118] bg-[#EBEAE6]  focus:outline-none focus:ring-2 focus:ring-[#705118] tracking-[2px] uppercase"
+            className="w-full text-[#705118] p-3 md:p-4 text-[12px] sm:text-[14px] md:text-[16px] font-montserrat font-semibold border-0 border-b border-[#705118] bg-[#EBEAE6]  focus:outline-none focus:ring-2 focus:ring-[#705118] tracking-[2px] uppercase"
           ></textarea>
         ) : (
           <input
             key={index}
             type={field.type}
             placeholder={field.placeholder}
-            className="w-full text-[#705118] p-4 font-montserrat font-semibold border-0 border-b border-[#705118] bg-[#EBEAE6] focus:outline-none focus:ring-0 focus:border-[#705118] tracking-[2px] uppercase"
+            className="w-full text-[#705118] p-3 md:p-4 text-[12px] sm:text-[14px] md:text-[16px] font-montserrat font-semibold border-0 border-b border-[#705118] bg-[#EBEAE6] focus:outline-none focus:ring-0 focus:border-[#705118] tracking-[2px] uppercase"
           />
         )
       ))}
 
       {/* Checkbox */}
       <div className="flex items-start gap-3">
-        <input type="checkbox" id="consent" className="mt-2" />
+      <input type="checkbox" id="consent" className="mt-1" />
         <label htmlFor="consent" className="text-[14px]">
-            <Pera2 CustomClass="!leading-[24px] !text-[12px] !tracking-[0px] !text-center">
+            <Pera2 CustomClass="!leading-[18px] sm:!leading-[20px] md:!leading-[24px] !text-[12px] !tracking-[0px] !text-start md:!text-center">
           I authorize company representatives to Call, SMS, Email or
           WhatsApp me about its products and offers. This consent
           overrides any registration for DNC/NDNC.</Pera2>
