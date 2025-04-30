@@ -50,12 +50,11 @@ const Services = ({ onEnquireClick }) => {
         </CustomDiv>
 
         {/* Paragraph */}
-        <div className="w-full lg:w-[60%] mx-auto mb-[25px] xxl:mb-[50px] px-[15px] md:px-[0]">
-          <Pera2 CustomClass="text-center">
-            At DN Kingsland, Odisha, services transcend the ordinary—they're
-            thoughtfully curated experiences tailored for a refined lifestyle.
-            Welcome to a world where luxury meets legacy.
+        <div className="w-full  xxl:w-[60%] mx-auto mb-[25px] xxl:mb-[50px] px-[15px] md:px-[0]">
+          <Pera2 CustomClass="!text-center">
+          Experience professionally managed white-glove services at your doorstep.
           </Pera2>
+          <Pera2 CustomClass="!text-center">DN Kingsland brings you unparalleled service from the comfort of your device.</Pera2>
         </div>
 
         {/* Three Column Layout */}

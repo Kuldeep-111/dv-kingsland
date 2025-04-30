@@ -51,12 +51,6 @@ const Slider = ({ items = [],isJourney=false,CustomClass ,CustomHeight,onEnquire
                   </div>
                 )}
               </div>
-              {/* Title below the image */}
-              {/* {item.title && (
-                <div className="mt-[25px] md:mt-[50px] text-center">
-                  <h3 className="text-xl font-semibold py-[12px] px-[35px] md:px-[55px] tracking-[2px] bg-white">{item.title}</h3>
-                </div>
-              )} */}
               {!isJourney && <EnquiryButton onClick={onEnquireClick} CustomClass="mt-[25px] xxl:mt-[50px] !bg-white !text-black !font-semibold tracking-[2px] text-xl"/>}
             </div>
           </SwiperSlide>

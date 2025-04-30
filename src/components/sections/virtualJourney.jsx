@@ -10,16 +10,22 @@ import VideoModal from "../VideoModal";
 
 const virtualJourneyData = [
   {
-    image: "/assets/images/virtual-journey/image2.png",
+    image: "/assets/images/virtual-journey/clubhouse_lobby.webp",
   },
   {
     image: "/assets/images/virtual-journey/image1.png",
   },
   {
-    image: "/assets/images/virtual-journey/image3.png",
+    image: "/assets/images/virtual-journey/dining_area.webp",
   },
   {
-    image: "/assets/images/virtual-journey/image1.png",
+    image: "/assets/images/virtual-journey/dining_room.webp",
+  },
+  {
+    image: "/assets/images/virtual-journey/living_area.webp",
+  },
+  {
+    image: "/assets/images/virtual-journey/private_jacuzzi.webp",
   },
 ];
 
@@ -56,7 +62,7 @@ const VirtualJourney = ({ onEnquireClick }) => {
           <button
             type="button"
             onClick={handleOpenVideoModal}
-            className="bg-[#705118] text-white px-8 py-3 w-[250px] font-montserrat hover:bg-[#8a6a2b] transition-all duration-300"
+            className="bg-[#705118] cursor-pointer text-white py-[12px] px-[55px] tracking-[2px]"
           >
             Walkthrough
           </button>

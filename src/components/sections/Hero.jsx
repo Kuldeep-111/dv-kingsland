@@ -15,7 +15,7 @@ const Hero = ({ onEnquireClick }) => {
       <WhatsappButton />
 
       <Image
-        src="/assets/images/hero1.png"
+        src="/assets/images/hero1.webp"
         alt="Hero Image"
         layout="fill"
         objectFit="cover"

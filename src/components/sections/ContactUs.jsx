@@ -14,7 +14,7 @@ const ContactUs = () => {
       id="contact"
     >
       <div className="container mx-auto ">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px] w-full mx-auto">
           {/* Left Section */}
           <div className="flex flex-col gap-6 ">
             <div className="mb-[30px]">
@@ -32,7 +32,7 @@ const ContactUs = () => {
             </div>
 
             <div className="flex justify-between relative ">
-              <div className="flex flex-col gap-6 justify-center">
+              <div className="flex flex-col gap-6 w-full justify-center">
                 {/* Contact Numbers */}
                 <div className="flex items-center gap-4">
                   <a
@@ -63,7 +63,7 @@ const ContactUs = () => {
                   </a>
                 </div>
               </div>
-              <div className="absolute right-[72px] top-[-36px] w-[150px] h-[150px] md:relative md:w-[250px] md:h-[250px]">
+              <div className="absolute right-[72px] md:right-[30px] lg:right-[72px] top-[-36px] w-[150px] h-[150px] md:relative md:w-[100px] md:h-[100px] lg:w-[250px] lg:h-[250px]">
                 <Image
                   src="/assets/images/location/bg1.png"
                   alt="Decoration"
@@ -74,7 +74,7 @@ const ContactUs = () => {
             </div>
 
             {/* RERA Number */}
-            <div className="bg-[#705118] text-white p-4 w-[80%] mt-[40px] mx-auto md:mx-[0]">
+            <div className="bg-[#705118] text-white p-4 w-[80%] mt-[20px] xxl:mt-[40px] mx-auto md:mx-[0]">
               <p className="text-[18px] text-center">
                 Rera no. MP/19/2023/01042
               </p>

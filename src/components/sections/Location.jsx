@@ -9,7 +9,7 @@ const Location = ({onEnquireClick}) => {
     <section className="py-[50px] bg-[#EBEAE6]" id="location">
       <div className="container mx-auto">
         {/* Top Heading */}
-        <CustomDiv CustomClass="mb-[50px]">
+        <CustomDiv CustomClass="mb-[25px] xxl:mb-[50px]">
           <Price text={"Prime Location"} />
           <BorderBottom CustomClass={"w-[250px] mt-2 mb-2 !h-[2px]"} />
         </CustomDiv>
@@ -38,14 +38,30 @@ const Location = ({onEnquireClick}) => {
             </div>
 
             {/* Right Section - Content */}
-            <div className="flex order-1  md:col-span-6 md:order-2 flex-col justify-start xll:justify-center px-[15px] md:px-[0]">
+            <div className="flex order-1  md:col-span-6 md:order-2 flex-col justify-start xll:justify-center">
               <Price
                 text={
-                  "ROYALS SHOULD NOT WAIT.  LEADING THE WAY IN  SUPERIOR CONNECTIVITY."
+                  "ROYALS SHOULD NOT WAIT."
                 }
-                CustomClass={" !text-black font-normal justify-start pr-[15px]"}
-                firstText="!text-[26px]"
-                OtherText="!text-[24px]"
+                CustomClass={" !text-black font-normal justify-center md:justify-start pr-[15px]"}
+                firstText="!text-[20px] md:!text-[26px]"
+                OtherText="!text-[18px] md:!text-[24px]"
+              />
+              <Price
+                text={
+                  "LEADING THE WAY IN"
+                }
+                CustomClass={" !text-black font-normal justify-center md:justify-start pr-[15px]"}
+                firstText="!text-[20px] md:!text-[26px]"
+                OtherText="!text-[18px] md:!text-[24px]"
+              />
+              <Price
+                text={
+                  "SUPERIOR CONNECTIVITY."
+                }
+                CustomClass={" !text-black font-normal justify-center md:justify-start pr-[15px]"}
+                firstText="!text-[20px] md:!text-[26px]"
+                OtherText="!text-[18px] md:!text-[24px]"
               />
               <Pera2 CustomClass="mt-[20px]">
                 The Only High-Rise Luxury Landmark in Central Bhubaneswar since
@@ -55,7 +71,7 @@ const Location = ({onEnquireClick}) => {
                 <button className="bg-[#705118] text-white w-[240px] h-[45px] mt-[40px] cursor-pointer" onClick={onEnquireClick}>
                   View Location Map
                 </button>
-                <div className="absolute right-0 top-[-20%] w-[250px] h-[250px]">
+                <div className="absolute right-0 top-[-75%] w-[250px] h-[250px]">
                   <Image
                     src="/assets/images/location/bg1.png"
                     alt="Decoration"

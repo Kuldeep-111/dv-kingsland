@@ -22,7 +22,7 @@ const AboutDeveloper = ({onEnquireClick}) => {
 
       <div className="container mx-auto relative z-10">
         {/* Top Heading */}
-        <CustomDiv CustomClass="mb-[20px] md:mb-[50px]">
+        <CustomDiv CustomClass="mb-[20px] md:mb-[30px] xxl:mb-[50px]">
           <Price text={"About Developer"} CustomClass="!text-white" />
           <BorderBottom CustomClass={"w-[250px] mt-2"} isWhite={true} />
         </CustomDiv>
