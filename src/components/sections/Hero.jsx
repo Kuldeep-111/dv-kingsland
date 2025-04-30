@@ -65,7 +65,7 @@ const Hero = ({ onEnquireClick }) => {
       <Price text={" ₹ 5.40 cr*"} span={"onwards"} />
       <BorderBottom CustomClass={"w-[200px]"} />
     </CustomDiv>
-    <EnquiryButton CustomClass="w-[250px] mx-auto" />
+    <EnquiryButton onClick={onEnquireClick} CustomClass="w-[250px] mx-auto" />
   </div>
 </div>
 
