@@ -25,13 +25,15 @@ const Residences = ({onEnquireClick}) => {
       />
       <div className="container mx-auto">
         {/* Top Heading */}
-        <CustomDiv CustomClass="mb-[50px]">
-          <Pera CustomClass="text-[20px] md:text-[24px]">
-            <span className="text-[#A39264] text-[32px] font-bold">
-            Odisha's Prestigious Clubhouse
-            </span>
-          </Pera>
-          <Pera CustomClass="text-[20px] md:text-[24px] mt-[5px]">
+        <CustomDiv CustomClass="mb-[25px] xxl:mb-[50px]">
+        <Price
+                text={
+                  "Odisha's Prestigious Clubhouse"
+                }
+                firstText="!text-[28px] xxl:!text-[32px]"
+                OtherText="!text-[26px] xxl:!text-[30px]"
+              />
+          <Pera CustomClass="text-[20px] md:text-[24px] mt-[0px]">
             Experience The Extraordinary
           </Pera>
         </CustomDiv>
