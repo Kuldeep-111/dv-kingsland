@@ -6,7 +6,7 @@ const VideoModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#0c0c0c6b] ">
       <div className="relative w-full max-w-[800px] mx-4">
         <button
           onClick={onClose}
