@@ -14,18 +14,18 @@ const Header = () => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
 
-      // if (currentScrollY > 100) {
-      //   if (currentScrollY < lastScrollY) {
-      //     // Scrolling up
-      //     setShowHeader(true);
-      //   } else {
-      //     // Scrolling down
-      //     setShowHeader(false);
-      //   }
-      // } else {
-      //   // At top, don't show fixed header
-      //   setShowHeader(false);
-      // }
+      if (currentScrollY > 100) {
+        if (currentScrollY < lastScrollY) {
+          // Scrolling up
+          setShowHeader(true);
+        } else {
+          // Scrolling down
+          setShowHeader(false);
+        }
+      } else {
+        // At top, don't show fixed header
+        setShowHeader(false);
+      }
 
       setLastScrollY(currentScrollY);
     };
