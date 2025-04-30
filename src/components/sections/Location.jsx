@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Location = ({onEnquireClick}) => {
   return (
-    <section className="py-[80px] bg-[#EBEAE6]" id="location">
+    <section className="py-[50px] bg-[#EBEAE6]" id="location">
       <div className="container mx-auto">
         {/* Top Heading */}
         <CustomDiv CustomClass="mb-[50px]">
@@ -24,10 +24,10 @@ const Location = ({onEnquireClick}) => {
           className="object-cover"
         />
 
-        <div className="container mx-auto relative z-10 py-[50px]">
+        <div className="container mx-auto relative z-10 py-[20px] xll:py-[50px]">
           <div className="grid grid-cols-1 md:grid-cols-12  gap-[50px]">
             {/* Left Section - Map */}
-            <div className="relative  md:col-span-6 order-2 md:order-1 h-[300px] md:h-[500px]">
+            <div className="relative  md:col-span-6 order-2 md:order-1 h-[300px] md:h-[400px] xll:[500px]">
               <Image
                 src="/assets/images/location/map.png"
                 alt="Location Map"
@@ -38,7 +38,7 @@ const Location = ({onEnquireClick}) => {
             </div>
 
             {/* Right Section - Content */}
-            <div className="flex order-1  md:col-span-6 md:order-2 flex-col justify-center px-[15px] md:px-[0]">
+            <div className="flex order-1  md:col-span-6 md:order-2 flex-col justify-start xll:justify-center px-[15px] md:px-[0]">
               <Price
                 text={
                   "ROYALS SHOULD NOT WAIT.  LEADING THE WAY IN  SUPERIOR CONNECTIVITY."

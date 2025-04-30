@@ -6,10 +6,11 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/navigation'
+import EnquiryButton from './utilities/EnquiryButton'
 
-const Slider = ({ items = [],isJourney=false,CustomClass ,CustomHeight}) => {
+const Slider = ({ items = [],isJourney=false,CustomClass ,CustomHeight,onEnquireClick}) => {
   return (
-    <div className={`relative w-full ${isJourney ? "md:!h-[500px]" : "md:!h-[600px]"}  ${CustomHeight}`}>
+    <div className={`relative w-full  ${isJourney ? "md:!h-[400px] xll:!h-[500px]" : "md:!h-[500px] xll:!h-[600px]"}  ${CustomHeight} `}>
       <Swiper
         modules={[Navigation]}
         navigation={{
@@ -34,7 +35,7 @@ const Slider = ({ items = [],isJourney=false,CustomClass ,CustomHeight}) => {
         {/* Slides */}
         {items.map((item, index) => (
           <SwiperSlide key={index} className="!flex !justify-center">
-            <div className="relative w-[100%] h-full flex flex-col items-center transition-all duration-500 ease-in-out">
+            <div className="relative w-[90%] xxl:w-full h-full flex flex-col items-center transition-all duration-500 ease-in-out">
               <div className="relative w-full h-full transition-all duration-500 ease-in-out">
                 {/* Image */}
                 <Image
@@ -44,18 +45,19 @@ const Slider = ({ items = [],isJourney=false,CustomClass ,CustomHeight}) => {
                   className="object-cover"
                 />
                 {/* Description */}
-                {item.description && (
+                {item.title && (
                   <div className="Slide_Content absolute bottom-0 left-0 right-0 p-4 text-center">
-                    <p className="text-lg text-black text-[14px] md:text-[18px] px-[20px] py-[10px]" >{item.description}</p>
+                    <p className="text-lg text-black text-[14px] md:text-[18px] px-[20px] py-[10px]" >{item.title}</p>
                   </div>
                 )}
               </div>
               {/* Title below the image */}
-              {item.title && (
+              {/* {item.title && (
                 <div className="mt-[25px] md:mt-[50px] text-center">
                   <h3 className="text-xl font-semibold py-[12px] px-[35px] md:px-[55px] tracking-[2px] bg-white">{item.title}</h3>
                 </div>
-              )}
+              )} */}
+              {!isJourney && <EnquiryButton onClick={onEnquireClick} CustomClass="mt-[25px] xxl:mt-[50px] !bg-white !text-black !font-semibold tracking-[2px] text-xl"/>}
             </div>
           </SwiperSlide>
         ))}

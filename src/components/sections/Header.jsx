@@ -7,32 +7,42 @@ import Sidebar from '../Sidebar';
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [showHeader, setShowHeader] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      const currentScrollY = window.scrollY;
+
+      // if (currentScrollY > 100) {
+      //   if (currentScrollY < lastScrollY) {
+      //     // Scrolling up
+      //     setShowHeader(true);
+      //   } else {
+      //     // Scrolling down
+      //     setShowHeader(false);
+      //   }
+      // } else {
+      //   // At top, don't show fixed header
+      //   setShowHeader(false);
+      // }
+
+      setLastScrollY(currentScrollY);
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [lastScrollY]);
 
   return (
     <>
       <header
-        className={`py-[25px] px-[10px] w-full absolute left-0 top-0 z-50 transition-all ease-in-out ${
-          isScrolled
-            ? 'bg-[#EBEAE6] shadow-lg fixed top-0 left-0 right-0'
-            : 'bg-transparent'
-        }`}
+        className={`
+          py-[25px] px-[10px] w-full z-50 transition-transform duration-300 ease-in-out
+          ${showHeader ? 'fixed top-0 left-0 bg-[#EBEAE6] shadow-lg translate-y-0' : 'absolute top-0 left-0'}
+        `}
       >
         <div className="flex items-center justify-between container mx-auto">
-          <EnquiryButton CustomClass="hidden lg:block"/>
           <div className='w-[200px]'>
             <Image 
               src="/assets/images/logo.png" 
@@ -42,13 +52,12 @@ const Header = () => {
             />
           </div>
           <div className='flex items-center'>
-          <a
-                href="tel:+911234567890"
-                className="flex items-center gap-2"
-                target="_blank"
-              >
-            <CallButton/>
-            
+            <a
+              href="tel:+911234567890"
+              className="flex items-center gap-2"
+              target="_blank"
+            >
+              <CallButton />
             </a>
             <button 
               onClick={() => setIsSidebarOpen(true)}

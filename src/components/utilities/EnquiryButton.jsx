@@ -6,7 +6,7 @@ const EnquiryButton = ({onClick, CustomClass }) => {
     <>
       <button 
         onClick={onClick}
-        className={`bg-[#705118] cursor-pointer text-white py-[12px] px-[55px]  ${CustomClass}`}
+        className={`bg-[#705118] cursor-pointer text-white py-[12px] px-[55px] tracking-[2px] ${CustomClass}`}
       >
         Enquire Now
       </button>

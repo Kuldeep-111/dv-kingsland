@@ -5,6 +5,7 @@ import Price from '../utilities/Price'
 import BorderBottom from '../utilities/BorderBottom'
 import Slider from '../Slider'
 import Image from 'next/image'
+import EnquiryButton from '../utilities/EnquiryButton';
 
 const virtualJourneyData = [
     {
@@ -21,7 +22,7 @@ const virtualJourneyData = [
   }
 ]
 
-const VirtualJourney = () => {
+const VirtualJourney = ({onEnquireClick}) => {
   return (
     <section className="py-[80px] bg-[#EBEAE6] relative" id="virtual-journey">
       {/* Background Image */}
@@ -36,7 +37,7 @@ const VirtualJourney = () => {
 
       <div className="container mx-auto">
         {/* Top Heading */}
-        <CustomDiv CustomClass=" mb-[40px] md:mb-[100px]">
+        <CustomDiv CustomClass=" mb-[40px] md:mb-[60px] xxl:mb-[50px]">
           <Price text={"Virtual Journey"} />
           <BorderBottom CustomClass={"w-[250px] mt-2"} />
         </CustomDiv>
@@ -50,9 +51,10 @@ const VirtualJourney = () => {
 
         {/* View All Button */}
         <div className="flex justify-center mt-[30px]">
-          <button className="bg-[#705118] text-[20px] tracking-[2px] text-white px-8 py-3  hover:bg-[#8a6a2b] transition-all duration-300">
+          <EnquiryButton onClick={onEnquireClick}/>
+          {/* <button className="bg-[#705118] text-[20px] tracking-[2px] text-white px-8 py-3  hover:bg-[#8a6a2b] transition-all duration-300">
             View All
-          </button>
+          </button> */}
         </div>
     </section>
   )

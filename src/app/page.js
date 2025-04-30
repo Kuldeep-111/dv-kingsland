@@ -20,15 +20,15 @@ export default function Home() {
   const handleCloseModal = () => setIsModalOpen(false);
   return (
     <>
-        <Hero onEnquireClick={handleOpenModal}/>
-      <Residences/>
-      <Deck/>
+      <Hero onEnquireClick={handleOpenModal}/>
+      <Residences onEnquireClick={handleOpenModal}/>
+      <Deck onEnquireClick={handleOpenModal}/>
       <Location onEnquireClick={handleOpenModal}/>
-      <Amenities/>
+      <Amenities onEnquireClick={handleOpenModal}/>
       <Services onEnquireClick={handleOpenModal}/>
       <OurPricing onEnquireClick={handleOpenModal}/>
       <FloorPlan onEnquireClick={handleOpenModal}/>
-      <VirtualJourney/>
+      <VirtualJourney onEnquireClick={handleOpenModal}/>
       <AboutDeveloper onEnquireClick={handleOpenModal}/>
       <ContactUs/>
       <EnquiryModal isOpen={isModalOpen} onClose={handleCloseModal} />

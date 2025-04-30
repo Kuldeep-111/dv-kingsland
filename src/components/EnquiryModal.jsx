@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import CustomForm from './CustomForm';
+import Image from 'next/image';
 // import { CustomForm } from './CustomForm';
 
 const EnquiryModal = ({ isOpen, onClose }) => {
@@ -16,10 +17,19 @@ const EnquiryModal = ({ isOpen, onClose }) => {
 
       {/* Modal Content */}
       <div className="relative bg-[#EBEAE6] p-8 max-w-[600px] w-[90%] mx-auto z-10">
+        <div className='flex justify-between px-[20px] items-center'>
+        <div className='w-[150px]'>
+                    <Image 
+                      src="/assets/images/logo.png" 
+                      alt="DN Kingsland" 
+                      width={200}
+                      height={50}
+                    />
+                  </div>
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute bg-[#705118] p-2 rounded-full top-3 right-3 text-white  hover:text-gray-100"
+          className=" bg-[#705118] p-2 rounded-full text-white  hover:text-gray-100"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -36,6 +46,7 @@ const EnquiryModal = ({ isOpen, onClose }) => {
             />
           </svg>
         </button>
+        </div>
 
         {/* Form */}
         <div className="mt-4 ">

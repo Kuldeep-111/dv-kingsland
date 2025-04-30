@@ -11,11 +11,11 @@ const Hero = ({ onEnquireClick }) => {
   return (
     <section className="bg-[#EBEAE6] relative h-auto md:h-screen w-full pt-[100px]" id="hero">
       
-      <Header onEnquireClick={onEnquireClick} />
+      <Header />
       <WhatsappButton />
 
       <Image
-        src="/assets/images/hero11.png"
+        src="/assets/images/hero1.png"
         alt="Hero Image"
         layout="fill"
         objectFit="cover"
@@ -25,9 +25,10 @@ const Hero = ({ onEnquireClick }) => {
       />
       <div className="parent hidden md:flex flex-col h-full w-full absolute left-0 top-0 pt-[90px] ">
         <CustomDiv CustomClass=" h-[35%] flex flex-col justify-start">
-          <Pera CustomClass={"text-[24px]"}>Odisha's Most</Pera>
-          <Price text={" Expensive & Largest"} />
+          <Pera CustomClass={"text-[24px]"}>Odisha's </Pera>
+          <Price text={"Most Largest & Expensive"} />
           <Pera>Residences</Pera>
+          <EnquiryButton onClick={onEnquireClick} CustomClass="mt-[20px]"/>
         </CustomDiv>
         <div className="bottom flex h-[65%] w-full">
           <CustomDiv CustomClass="left h-full w-1/2 hidden md:flex flex-col justify-start">

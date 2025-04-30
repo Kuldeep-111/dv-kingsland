@@ -27,13 +27,13 @@ const OurPricing = ({onEnquireClick}) => {
       />
       <div className="container mx-auto">
         {/* Top Heading */}
-        <CustomDiv CustomClass="mb-[50px]">
+        <CustomDiv CustomClass="mb-[25px] xxl:mb-[50px]">
           <Price text={"Our Pricing"} />
           <BorderBottom CustomClass={"w-[250px] mt-2"} />
         </CustomDiv>
 
         {/* Paragraph */}
-        <div className=" w-full md:w-[60%] mx-auto mb-[50px] px-[15px] md:px-[0]">
+        <div className=" w-full md:w-[80%] xxl:w-[60%] mx-auto mb-[25px] xxl:mb-[50px] px-[15px] md:px-[0]">
           <Pera2 CustomClass="!text-center">
             At DN Kingsland, Odisha, we offer premium residences that redefine
             luxury living. Our pricing reflects the exceptional quality, prime
@@ -44,13 +44,16 @@ const OurPricing = ({onEnquireClick}) => {
 
       {/* Full Width Image */}
       <div className="relative pb-[150px] md:pb-[0]">
-        <img
-          src="/assets/images/pricing/image1.png"
-          alt="Pricing Image"
-          
-          className="object-cover hidden md:block"
-        />
-
+      <div className="relative w-full h-[500px] hidden md:block">
+  <Image
+    src="/assets/images/pricing/image2.webp"
+    alt="Pricing Image"
+    layout="fill"
+    objectFit="cover"
+      objectPosition="top"
+    className="object-cover"
+  />
+</div>
 
         <div className="absolute top-0 left-0 w-full hidden md:flex justify-center align-center h-full">
         <div className="w-full flex flex-col items-center justify-center text-center gap-[0px] h-[80%]">
