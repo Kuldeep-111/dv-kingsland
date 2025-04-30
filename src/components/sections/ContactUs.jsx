@@ -14,7 +14,7 @@ const ContactUs = () => {
       id="contact"
     >
       <div className="container mx-auto ">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px] w-full mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px] w-full xl:w-[90%] mx-auto">
           {/* Left Section */}
           <div className="flex flex-col gap-6 ">
             <div className="mb-[30px]">

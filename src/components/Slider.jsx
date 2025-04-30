@@ -51,7 +51,7 @@ const Slider = ({ items = [],isJourney=false,CustomClass ,CustomHeight,onEnquire
                   </div>
                 )}
               </div>
-              {!isJourney && <EnquiryButton onClick={onEnquireClick} CustomClass="mt-[25px] xxl:mt-[50px] !bg-white !text-black !font-semibold tracking-[2px] text-xl"/>}
+              {!isJourney && <EnquiryButton onClick={onEnquireClick} CustomClass="mt-[20px] xxl:mt-[50px] !bg-white !text-black !font-semibold tracking-[2px] text-xl"/>}
             </div>
           </SwiperSlide>
         ))}
