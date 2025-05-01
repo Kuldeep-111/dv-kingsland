@@ -45,8 +45,8 @@ const AboutDeveloper = ({onEnquireClick}) => {
           </h2>
 
           {/* Paragraph */}
-          <div className="w-full md:w-[60%] mx-auto mb-[50px] mt-[40px]">
-            <Pera2 CustomClass="text-center !text-white !text-[12px] md:!text-[14px] !leading-[25px]">
+          <div className="w-full md:w-[80%]  xxl:w-[60%] mx-auto mb-[50px] mt-[40px]">
+            <Pera2 CustomClass="!text-center !text-white !text-[12px] md:!text-[14px] !leading-[25px]">
               India's fastest growing real estate conglomerate with a reputation for identifying emerging real estate markets, recognizing aspirations in lifestyle evolution, perfecting the modulations of luxury and responding with projects that capture the unique spirit of changing India.
             </Pera2>
           </div>

@@ -34,11 +34,8 @@ const OurPricing = ({onEnquireClick}) => {
 
         {/* Paragraph */}
         <div className=" w-full md:w-[80%] xxl:w-[60%] mx-auto mb-[25px] xxl:mb-[50px] px-[15px] md:px-[0]">
-          <Pera2 CustomClass="!text-center">
-            At DN Kingsland, Odisha, we offer premium residences that redefine
-            luxury living. Our pricing reflects the exceptional quality, prime
-            location, and world-class amenities that come with every residence.
-          </Pera2>
+          <Pera2 CustomClass="!text-center"> Timeless design. Lasting value. </Pera2>
+          <Pera2 CustomClass="!text-center"> Our curated luxury homes are priced to reftlect the sophistication you deserve</Pera2>
         </div>
       </div>
 
