@@ -20,17 +20,17 @@ const ContactUs = () => {
             <div className="mb-[30px]">
               <Price
                 text={"Get in Touch"}
-                firstText="!text-[36px] md:!text-[56px]"
-                OtherText="!text-[20px] md:!text-[40px]"
+                firstText="!text-[36px] md:!text-[46px] lg:!text-[56px]"
+                OtherText="!text-[20px] md:!text-[30px] lg:!text-[40px]"
                 CustomClass="!justify-start"
               />
-              <div className="flex items-center justify-start gap-[10px] md:gap-[30px] ps-[0] md:ps-[40px]">
+              <div className="flex items-center justify-start gap-[10px] md:gap-[20px] lg:gap-[30px] ps-[0] md:ps-[10px] lg:ps-[40px]">
                 <div
-                  className={`h-[1px] bg-gradient-to-l bg-[#705118] w-[100px] md:w-[150px]`}
+                  className={`h-[1px] bg-gradient-to-l bg-[#705118] w-[100px] md:w-[120px] lg:w-[150px]`}
                 ></div>
                 <Price text={"with Us"} 
-                firstText="!text-[36px] md:!text-[56px]"
-                OtherText="!text-[20px] md:!text-[40px]" />
+                firstText="!text-[36px] md:!text-[46px] lg:!text-[56px]"
+                OtherText="!text-[20px] md:!text-[30px] lg:!text-[40px]" />
               </div>
             </div>
 

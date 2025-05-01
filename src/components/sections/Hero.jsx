@@ -44,7 +44,7 @@ const Hero = ({ onEnquireClick }) => {
             <BorderBottom />
             {/* location  */}
             <div className="flex items-center gap-[5px] mt-[10px]">
-            <Image src="/assets/icons/location.webp" width="20" height="20"/>
+            <Image src="/assets/icons/location.webp" alt="Location background" width="20" height="20"/>
             <Pera CustomClass=" !text-[16px] !leading-normal">  Janpath, Saheed Nagar, </Pera>
             </div>
             <Pera CustomClass=" !text-[16px] !leading-normal">Annexe Bhubaneswar</Pera>
@@ -74,7 +74,7 @@ const Hero = ({ onEnquireClick }) => {
           
             {/*mobile location  */}
             <div className="flex items-start gap-[5px] mt-[10px] ps-[25px] sm:ps-[45px]">
-            <Image src="/assets/icons/location.webp" width="15" height="15"/>
+            <Image src="/assets/icons/location.webp" alt="Location Background" width="15" height="15"/>
             <Pera CustomClass=" !text-[12px] !leading-normal text-start">  Janpath, Saheed Nagar, Annexe Bhubaneswar</Pera>
             </div>
         </CustomDiv>

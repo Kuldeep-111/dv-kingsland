@@ -57,7 +57,7 @@ const OurPricing = ({onEnquireClick}) => {
             <Price text={" 4 BHK"} />
             <BorderBottom CustomClass={"w-[200px] mt-[1px]"} />
             <Pera CustomClass={"mt-[20px]"}>3930 - 4070 SQ.FT.</Pera>
-            <Price text={" ₹ 5.10 cr*"} CustomClass="leading-[30px] mt-[20px]"/>
+            <Price text={" ₹ 5.10 cr*"} CustomClass="leading-[30px] mt-[20px] gradient-text"/>
             <span className='mt-[5px]'>onwards</span>
             <EnquiryButton CustomClass={"mt-[20px]"} onClick={onEnquireClick}/>
           </div>
