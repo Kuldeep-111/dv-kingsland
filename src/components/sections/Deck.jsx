@@ -1,13 +1,11 @@
 import React from 'react'
-import { CustomDiv, Pera } from '../utilities/CustomTag'
+import { Pera } from '../utilities/CustomTag'
 import Image from 'next/image'
-import Price from '../utilities/Price'
-import BorderBottom from '../utilities/BorderBottom'
 import EnquiryButton from '../utilities/EnquiryButton'
 
 const Deck = ({onEnquireClick}) => {
   return (
-    <section className="relative h-[90vh] xll:h-screen w-full" id="deck">
+    <section className="relative h-[70vh] md:h-[90vh] xll:h-screen w-full" id="deck">
       {/* Background Image */}
       <Image
         src="/assets/images/deck/spacious_deck.webp"
