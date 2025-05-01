@@ -147,6 +147,12 @@ button{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.gradient-white-border {
+  background: linear-gradient(to left, transparent, #ffffff, transparent);
+}
+.gradient-color-border {
+  background: linear-gradient(to left, transparent, #705118, transparent);
+}
 .container{
   padding-left: 15px;
   padding-right: 15px;
