@@ -58,7 +58,7 @@ const OurPricing = ({onEnquireClick}) => {
             <BorderBottom CustomClass={"w-[200px] mt-[1px]"} />
             <Pera CustomClass={"mt-[20px]"}>3930 - 4070 SQ.FT.</Pera>
             <Price text={" ₹ 5.10 cr*"} CustomClass="leading-[30px] mt-[20px] gradient-text"/>
-            <span className='mt-[5px]'>onwards</span>
+            <span>onwards</span>
             <EnquiryButton CustomClass={"mt-[20px]"} onClick={onEnquireClick}/>
           </div>
           <div className="w-full flex flex-col items-center justify-center text-center gap-[0px] h-[80%]">
@@ -66,7 +66,7 @@ const OurPricing = ({onEnquireClick}) => {
             <BorderBottom CustomClass={"w-[200px]  mt-[1px]"} />
             <Pera CustomClass={"mt-[20px]"}>4370 - 4760 SQ.FT.</Pera>
             <Price text={" ₹ 5.66 cr*"} CustomClass="leading-[30px] mt-[20px] gradient-text"/>
-            <span className='mt-[5px]'>onwards</span>
+            <span>onwards</span>
             <EnquiryButton onClick={onEnquireClick} CustomClass={"mt-[20px]"}/>
           </div>
         </div>
