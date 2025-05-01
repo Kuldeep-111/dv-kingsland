@@ -8,7 +8,7 @@ import EnquiryButton from '../utilities/EnquiryButton'
 
 const AboutDeveloper = ({onEnquireClick}) => {
   return (
-    <section className="py-[80px] relative" id="about-developer">
+    <section className="py-[50px] relative" id="about-developer">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -30,7 +30,7 @@ const AboutDeveloper = ({onEnquireClick}) => {
         {/* Content */}
         <div className="flex flex-col items-center px-[15px] md:px-[0]">
           {/* Logo */}
-          <div className="mb-[10px] md:mb-[30px] w-[200px] h-[60px] md:h-[100px] relative">
+          <div className="my-[30px] w-[200px] h-[40px] md:h-[60px] md:h-[100px] relative">
             <Image
               src="/assets/images/about-developer/logo.png"
               alt="Developer Logo"
@@ -40,19 +40,19 @@ const AboutDeveloper = ({onEnquireClick}) => {
           </div>
 
           {/* Sub Heading */}
-          <h2 className="text-white text-[20px] md:text-[24px] font-normal mb-[20px] text-center">
+          <h2 className="text-white text-[16px] md:text-[20px] md:text-[24px] font-normal md:mb-[20px] text-center">
             One of the Fastest-Growing Real Estate
           </h2>
 
           {/* Paragraph */}
-          <div className="w-full md:w-[80%]  xxl:w-[60%] mx-auto mb-[50px] mt-[40px]">
+          <div className="w-full md:w-[80%]  xxl:w-[60%] mx-auto mb-[20px] md:mb-[50px] mt-[20px] md:mt-[40px]">
             <Pera2 CustomClass="!text-center !text-white !text-[12px] md:!text-[14px] !leading-[25px]">
               India's fastest growing real estate conglomerate with a reputation for identifying emerging real estate markets, recognizing aspirations in lifestyle evolution, perfecting the modulations of luxury and responding with projects that capture the unique spirit of changing India.
             </Pera2>
           </div>
 
           {/* Enquiry Button */}
-          <EnquiryButton CustomClass={'!bg-white !text-black !text-[16px]'} onClick={onEnquireClick}/>
+          <EnquiryButton CustomClass={'!bg-white !text-black !text-[14px] md:!text-[16px]'} onClick={onEnquireClick}/>
         </div>
       </div>
     </section>

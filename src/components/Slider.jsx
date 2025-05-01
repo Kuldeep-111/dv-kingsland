@@ -24,7 +24,7 @@ const Slider = ({ items = [],isJourney=false,CustomClass ,CustomHeight,onEnquire
         breakpoints={{
           0: {
             slidesPerView: 1.4, // Mobile (default)
-            spaceBetween:50
+            spaceBetween:30
           },
           768: {
             slidesPerView: 1.5, // Tablet and above
@@ -35,7 +35,7 @@ const Slider = ({ items = [],isJourney=false,CustomClass ,CustomHeight,onEnquire
         {/* Slides */}
         {items.map((item, index) => (
           <SwiperSlide key={index} className="!flex !justify-center">
-            <div className="relative w-[90%] xxl:w-full h-full flex flex-col items-center transition-all duration-500 ease-in-out">
+            <div className="relative w-full sm:w-[90%] xxl:w-full h-full flex flex-col items-center transition-all duration-500 ease-in-out">
               <div className="relative w-full h-full transition-all duration-500 ease-in-out">
                 {/* Image */}
                 <Image
@@ -59,13 +59,15 @@ const Slider = ({ items = [],isJourney=false,CustomClass ,CustomHeight,onEnquire
         {isJourney ? <>
         
         {/* Custom Navigation Buttons */}
-        <div className="swiper-button-prev !w-[40px] !h-[40px]   !text-white flex items-center justify-center absolute !left-[7%] md:!left-[14.2%] !top-[60%] md:!top-[55%] transform -translate-y-1/2">
-          <Image src='/assets/icons/clr-left-arrow.png' alt="Previous" width={40} height={40} />
+        <div className="swiper-button-prev !w-[25px] !h-[25px] md:!w-[40px] md:!h-[40px]   !text-white flex items-center justify-center absolute !left-[7%] md:!left-[14.2%] !top-[60%] md:!top-[55%] transform -translate-y-1/2">
+          <Image src='/assets/icons/clr-left-arrow.png' alt="Previous"  fill 
+    style={{ objectFit: 'contain' }}/>
         </div>
         
-        <div className="swiper-button-next !w-[40px] !h-[40px]   !text-white flex items-center justify-center absolute !right-[7%] md:!right-[14.2%]  !top-[60%] md:!top-[55%] transform -translate-y-1/2">
+        <div className="swiper-button-next !w-[25px] !h-[25px] md:!w-[40px] md:!h-[40px]    !text-white flex items-center justify-center absolute !right-[7%] md:!right-[14.2%]  !top-[60%] md:!top-[55%] transform -translate-y-1/2">
          
-          <Image src='/assets/icons/clr-right-arrow.png' alt="Next" width={40} height={40} />
+          <Image src='/assets/icons/clr-right-arrow.png' alt="Next"  fill 
+    style={{ objectFit: 'contain' }} />
         </div>
         
         </> : <>

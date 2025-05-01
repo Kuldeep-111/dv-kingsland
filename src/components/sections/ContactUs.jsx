@@ -10,7 +10,7 @@ import Link from "next/link";
 const ContactUs = () => {
   return (
     <section
-      className="pt-[80px] pb-[50px] px-[15px] md:px-[0] bg-[#EBEAE6]"
+      className="pt-[50px] pb-[20px] md:pb-[50px]  md:px-[0] bg-[#EBEAE6]"
       id="contact"
     >
       <div className="container mx-auto ">
@@ -20,14 +20,17 @@ const ContactUs = () => {
             <div className="mb-[30px]">
               <Price
                 text={"Get in Touch"}
-                firstText="text-[46px]"
+                firstText="!text-[36px] md:!text-[56px]"
+                OtherText="!text-[20px] md:!text-[40px]"
                 CustomClass="!justify-start"
               />
-              <div className="flex items-center justify-start gap-[30px] ps-[40px]">
+              <div className="flex items-center justify-start gap-[10px] md:gap-[30px] ps-[0] md:ps-[40px]">
                 <div
-                  className={`h-[1px] bg-gradient-to-l bg-[#705118] w-[150px]`}
+                  className={`h-[1px] bg-gradient-to-l bg-[#705118] w-[100px] md:w-[150px]`}
                 ></div>
-                <Price text={"with Us"} firstText="text-[46px]" />
+                <Price text={"with Us"} 
+                firstText="!text-[36px] md:!text-[56px]"
+                OtherText="!text-[20px] md:!text-[40px]" />
               </div>
             </div>
 
@@ -74,8 +77,8 @@ const ContactUs = () => {
             </div>
 
             {/* RERA Number */}
-            <div className="bg-[#705118] text-white p-4 w-[80%] mt-[20px] xxl:mt-[40px] mx-auto md:mx-[0]">
-              <p className="text-[18px] text-center">
+            <div className="bg-[#705118]   text-white p-3 md:p-4 w-full md:w-[80%] mt-[20px] xxl:mt-[40px] mx-auto md:mx-[0]">
+              <p className="text-[16px] md:text-[18px] text-center">
                 Rera no. MP/19/2023/01042
               </p>
             </div>
@@ -100,9 +103,9 @@ const ContactUs = () => {
 
         {/* Disclaimer Text */}
 
-        <BorderBottom CustomClass={"w-full mt-[70px]"} />
-        <div className="mt-[50px]">
-          <Pera2 CustomClass="!text-[12px] !leading-[25px] !text-center">
+        {/* <BorderBottom CustomClass={"w-full mt-[70px]"} /> */}
+        <div className=" mt-[25px] md:mt-[50px]">
+          <Pera2 CustomClass="!text-[10px] md:!text-[12px] !leading-[20px] md:!leading-[25px] !text-center">
             This is only for information purposes and does not constitute any
             offer or contract. Customers are advised to have their independent
             evaluation. Artistic impression as shown is a pictorial
@@ -121,8 +124,8 @@ const ContactUs = () => {
         </div>
 
         {/* Footer */}
-        <div className="mt-[30px] text-center ">
-          <p className="text-[14px] text-[#000000] font-montserrat font-medium">
+        <div className="mt-[10px] md:mt-[30px] text-center ">
+          <p className="text-[10px] md:text-[14px] text-[#000000] font-montserrat font-normal md:font-medium">
             <Link  href="/disclaimer"
               className="hover:underline text-[#705118] font-montserrat">
               Disclaimer & Privacy Policy
