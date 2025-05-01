@@ -69,7 +69,7 @@ const Residences = ({onEnquireClick}) => {
         </CustomDiv>
 
         {/* Two Paragraphs Side by Side */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px] md:gap-[80px]  px-[15px] md:px-[0] w-full xl:w-[65%] mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px] md:gap-[100px]  px-[15px] md:px-[0] w-full md:w-[90%] xxl:w-[65%] mx-auto">
           <Pera2 CustomClass="!leading-[25px]">
             Welcome to DN Kingsland, Odisha's first and only high-rise luxury
             residential development since 1960. Rising proudly in the heart of
