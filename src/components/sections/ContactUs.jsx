@@ -106,20 +106,7 @@ const ContactUs = () => {
         {/* <BorderBottom CustomClass={"w-full mt-[70px]"} /> */}
         <div className=" mt-[25px] md:mt-[50px]">
           <Pera2 CustomClass="!text-[10px] xxl:!text-[12px] !leading-[20px] md:!leading-[20px] xxl:!leading-[25px] !text-center">
-            This is only for information purposes and does not constitute any
-            offer or contract. Customers are advised to have their independent
-            evaluation. Artistic impression as shown is a pictorial
-            conceptualization and indicative only and actual may differ. The
-            sale is subject to the terms of Booking Application and Agreement
-            For Sale. All information, contents, plans, specifications are
-            subject to change as may he decided by the Promoter or directed by
-            any competent authority subject to applicable laws and availability.
-            All furniture, fittings and specifications shown herein are for
-            portraying a possible layout/interior for reference purposes only
-            and do not form part of the standard
-            specifications/amenities/services to be provided in the unit/project
-            and is subject to changes. The provision of social infrastructure
-            and other amenities will be as per approved plans.
+          This is only for information purposes and does not constitute an offer or contract. Customers are advised to have their independent evaluation. Artistic impression, as shown, is a pictorial conceptualization and indicative only, and actual may differ. The sale is subject to the terms of the Booking Application and Agreement For Sale. All information, contents, plans, and specifications are subject to change as may be decided by the Promoter or directed by any competent authority subject to applicable laws and availability. All furniture, fittings and specifications shown herein are for portraying a possible layout/interior for reference purposes only and do not form part of the standard specifications/amenities/services to be provided in the unit/project and are subject to change. The provision of social infrastructure and other amenities will be as per approved plans.
           </Pera2>
         </div>
 
