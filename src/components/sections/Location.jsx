@@ -43,25 +43,25 @@ const Location = ({onEnquireClick}) => {
                 text={
                   "ROYALS SHOULD NOT WAIT."
                 }
-                CustomClass={" !text-black font-normal justify-center md:justify-start pr-[15px]"}
-                firstText="!text-[20px] md:!text-[26px]"
-                OtherText="!text-[18px] md:!text-[24px]"
+                CustomClass={" !text-black font-normal justify-center md:justify-start pr-[0] sm:pr-[15px]"}
+                firstText="!text-[16px] sm:!text-[20px] md:!text-[26px]"
+                OtherText="!text-[14px] sm:!text-[18px] md:!text-[24px]"
               />
               <Price
                 text={
                   "LEADING THE WAY IN"
                 }
-                CustomClass={" !text-black font-normal justify-center md:justify-start pr-[15px]"}
-                firstText="!text-[20px] md:!text-[26px]"
-                OtherText="!text-[18px] md:!text-[24px]"
+                CustomClass={" !text-black font-normal justify-center md:justify-start pr-[0] sm:pr-[15px]"}
+                firstText="!text-[16px] sm:!text-[20px] md:!text-[26px]"
+                OtherText="!text-[14px] sm:!text-[18px] md:!text-[24px]"
               />
               <Price
                 text={
                   "SUPERIOR CONNECTIVITY."
                 }
-                CustomClass={" !text-black font-normal justify-center md:justify-start pr-[15px]"}
-                firstText="!text-[20px] md:!text-[26px]"
-                OtherText="!text-[18px] md:!text-[24px]"
+                CustomClass={" !text-black font-normal justify-center md:justify-start pr-[0] sm:pr-[15px]"}
+                firstText="!text-[16px] sm:!text-[20px] md:!text-[26px]"
+                OtherText="!text-[14px] sm:!text-[18px] md:!text-[24px]"
               />
               <Pera2 CustomClass="mt-[20px]">
                 The Only High-Rise Luxury Landmark in Central Bhubaneswar since

@@ -46,14 +46,14 @@ const Hero = ({ onEnquireClick }) => {
           {/* Mobile bottom content */}
           
           <CustomDiv CustomClass="  flex md:hidden flex-col justify-start">
-          <Pera CustomClass={"text-[24px]"}>Odisha's Most</Pera>
-          <Price text={" Expensive & Largest"} />
+          <Pera CustomClass={"text-[16px] md:text-[24px]"}>Odisha's</Pera>
+          <Price text={" Largest & Most Expensive"} CustomClass={"!text-[16px]"}/>
           <Pera>Residences</Pera>
         </CustomDiv>
         <div className="relative block md:hidden ">
         <img src="/assets/images/mobile_hero.png" alt="mobile hero" className="block md:hidden w-full"/>
         <CustomDiv CustomClass="right h-full ml-auto w-1/2 flex flex-col justify-start absolute top-[30%] right-0">
-            <Pera>First & Last</Pera>
+            <Pera  CustomClass={"text-[16px] md:text-[24px]"}>First & Last</Pera>
             <Price text={" Since 1960"} />
             <BorderBottom />
           </CustomDiv>

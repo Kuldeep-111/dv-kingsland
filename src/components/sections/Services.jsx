@@ -50,11 +50,16 @@ const Services = ({ onEnquireClick }) => {
         </CustomDiv>
 
         {/* Paragraph */}
-        <div className="w-full  xxl:w-[60%] mx-auto mb-[25px] xxl:mb-[50px] px-[15px] md:px-[0]">
-          <Pera2 CustomClass="!text-center">
+        <div className="w-full hidden md:block xxl:w-[60%] mx-auto mb-[25px] xxl:mb-[50px] px-[15px] md:px-[0]">
+          <Pera2 CustomClass="!text-center text-[12px] md-text[14px]">
           Experience professionally managed white-glove services at your doorstep.
           </Pera2>
-          <Pera2 CustomClass="!text-center">DN Kingsland brings you unparalleled service from the comfort of your device.</Pera2>
+          <Pera2 CustomClass="!text-center text-[12px] md-text[14px]">DN Kingsland brings you unparalleled service from the comfort of your device.</Pera2>
+        </div>
+        <div className="w-full block md:hidden mx-auto mb-[25px] xxl:mb-[50px] md:px-[0]">
+          <Pera2 CustomClass="!text-center">
+          Experience professionally managed white-glove services at your doorstep.DN Kingsland brings you unparalleled service from the comfort of your device.
+          </Pera2>
         </div>
 
         {/* Three Column Layout */}

@@ -30,10 +30,10 @@ const Residences = ({onEnquireClick}) => {
                 text={
                   "Odisha's Prestigious Clubhouse"
                 }
-                firstText="!text-[28px] xxl:!text-[32px]"
-                OtherText="!text-[26px] xxl:!text-[30px]"
+                firstText="!text-[15px] sm:!text-[18px] md:!text-[28px] xxl:!text-[32px]"
+                OtherText="!text-[13px] sm:!text-[16px] md:!text-[26px] xxl:!text-[30px]"
               />
-          <Pera CustomClass="text-[20px] md:text-[24px] mt-[0px]">
+          <Pera CustomClass="!text-[12px] sm:!text-[14px] md:!text-[20px] md:text-[24px] mt-[0px]">
             Experience The Extraordinary
           </Pera>
         </CustomDiv>

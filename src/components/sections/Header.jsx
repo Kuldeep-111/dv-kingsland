@@ -43,7 +43,7 @@ const Header = () => {
         `}
       >
         <div className="flex items-center justify-between container mx-auto">
-          <div className='w-[200px]'>
+          <div className='w-[120px] md:w-[200px]'>
             <Image 
               src="/assets/images/logo.png" 
               alt="DN Kingsland" 

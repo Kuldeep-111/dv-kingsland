@@ -31,8 +31,8 @@ const Deck = ({onEnquireClick}) => {
 
       {/* for mobile start */}
       <div className='absolute w-[96%]  top-[30px] left-[2%]  flex justify-center block md:hidden'>
-      <Pera CustomClass="text-[24px] py-[15px] px-[25px] text-white mb-2  mx-auto bg-gradient-to-r from-[#705118] to-[#A39264]">
-      The Most Expensive Living Now with a Deck
+      <Pera CustomClass="text-[14px] sm:text-[16px] sm:text-[24px] py-[5px] sm:py-[15px] px-[10px] sm:px-[25px] text-white mb-2  mx-auto bg-gradient-to-r from-[#705118] to-[#A39264]">
+      The Most Expansive Living Now with a Deck
       </Pera>
       {/* <Pera CustomClass="text-[32px] mt-[20px]"> Now with a Deck </Pera> */}
         </div>

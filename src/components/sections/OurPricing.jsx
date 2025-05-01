@@ -7,7 +7,7 @@ import EnquiryButton from '../utilities/EnquiryButton'
 
 const OurPricing = ({onEnquireClick}) => {
   return (
-    <section className="pt-[80px] bg-[#EBEAE6] relative" id="pricing">
+    <section className="pt-[50px] bg-[#EBEAE6] relative" id="pricing">
       <Image
         src="/assets/images/services/bg.png"
         alt="background image"
@@ -33,9 +33,9 @@ const OurPricing = ({onEnquireClick}) => {
         </CustomDiv>
 
         {/* Paragraph */}
-        <div className=" w-full md:w-[80%] xxl:w-[60%] mx-auto mb-[25px] xxl:mb-[50px] px-[15px] md:px-[0]">
-          <Pera2 CustomClass="!text-center"> Timeless design. Lasting value. </Pera2>
-          <Pera2 CustomClass="!text-center"> Our curated luxury homes are priced to reftlect the sophistication you deserve</Pera2>
+        <div className=" w-full md:w-[80%] xxl:w-[60%] mx-auto mb-[25px] xxl:mb-[50px] md:px-[0]">
+          <Pera2 CustomClass="!text-center !text-[12px] md:!text-[14px] !leading-[20px]"> Timeless design. Lasting value. </Pera2>
+          <Pera2 CustomClass="!text-center !text-[12px] md:!text-[14px] !leading-[20px]"> Our curated luxury homes are priced to reftlect the sophistication you deserve</Pera2>
         </div>
       </div>
 
