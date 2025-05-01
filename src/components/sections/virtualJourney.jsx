@@ -36,7 +36,7 @@ const VirtualJourney = ({ onEnquireClick }) => {
   const handleCloseVideoModal = () => setIsVideoModalOpen(false);
 
   return (
-    <section className="py-[80px] bg-[#EBEAE6] relative" id="virtual-journey">
+    <section className="py-[50px] bg-[#EBEAE6] relative" id="virtual-journey">
       {/* Background Image */}
       <div className="absolute top-[10%] right-[15%] w-[200px] h-[200px] hidden md:block">
         <Image
@@ -62,7 +62,7 @@ const VirtualJourney = ({ onEnquireClick }) => {
           <button
             type="button"
             onClick={handleOpenVideoModal}
-            className="bg-[#705118] cursor-pointer text-white py-[12px] px-[55px] tracking-[2px]"
+            className="bg-[#705118] cursor-pointer text-[14px] md:text-[20px] text-white py-[12px] px-[20px] sm:px-[55px] tracking-[2px]"
           >
             Walkthrough
           </button>

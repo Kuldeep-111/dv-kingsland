@@ -69,14 +69,14 @@ const Residences = ({onEnquireClick}) => {
         </CustomDiv>
 
         {/* Two Paragraphs Side by Side */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px] md:gap-[100px]  px-[15px] md:px-[0] w-full md:w-[90%] xxl:w-[65%] mx-auto">
-          <Pera2 CustomClass="!leading-[25px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[10px] sm:gap-[20px] md:gap-[100px] px-[0] sm:px-[15px] md:px-[0] w-full md:w-[90%] xxl:w-[65%] mx-auto">
+          <Pera2 CustomClass="!leading-[20px] !tracking-[0] sm:!leading-[25px]">
             Welcome to DN Kingsland, Odisha's first and only high-rise luxury
             residential development since 1960. Rising proudly in the heart of
             Janpath, Shaheed Nagar, Annexe Bhubaneswar, DN Kingsland isn't just
             a residence—it's a landmark.
           </Pera2>
-          <Pera2 CustomClass="!leading-[25px]">
+          <Pera2 CustomClass="!leading-[20px] !tracking-[0] sm:!leading-[25px]">
             Designed for those who seek timeless elegance, extraordinary space,
             and a lifestyle beyond the ordinary, our twin towers stand as a
             symbol of ambition, refinement, and urban exclusivity.

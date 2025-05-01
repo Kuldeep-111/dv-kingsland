@@ -16,14 +16,14 @@ const EnquiryModal = ({ isOpen, onClose }) => {
       ></div>
 
       {/* Modal Content */}
-      <div className="relative bg-[#EBEAE6] p-4 md:p-8 max-w-[600px] w-[90%] mx-auto z-10">
+      <div className="relative bg-[#EBEAE6] p-4 md:p-6 xll:p-8 max-w-[600px] w-[90%] mx-auto z-10">
         <div className='flex justify-between px-[20px] items-center'>
-        <div className='w-[150px]'>
+        <div className='w-[120px] '>
                     <Image 
                       src="/assets/images/logo.png" 
                       alt="DN Kingsland" 
-                      width={200}
-                      height={50}
+                      width={120}
+                      height={30}
                     />
                   </div>
         {/* Close Button */}
@@ -33,7 +33,7 @@ const EnquiryModal = ({ isOpen, onClose }) => {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6"
+            className="h-4 w-4 xxl:h-6 xxl:w-6"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -49,7 +49,7 @@ const EnquiryModal = ({ isOpen, onClose }) => {
         </div>
 
         {/* Form */}
-        <div className="mt-4 ">
+        <div className="mt-4 xxl:mt-6 ">
           <CustomForm />
         </div>
       </div>

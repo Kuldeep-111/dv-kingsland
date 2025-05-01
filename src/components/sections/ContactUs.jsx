@@ -16,7 +16,7 @@ const ContactUs = () => {
       <div className="container mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px] w-full xl:w-[90%] mx-auto">
           {/* Left Section */}
-          <div className="flex flex-col gap-6 ">
+          <div className="flex flex-col gap-4 xxl:gap-6 ">
             <div className="mb-[30px]">
               <Price
                 text={"Get in Touch"}
@@ -66,7 +66,7 @@ const ContactUs = () => {
                   </a>
                 </div>
               </div>
-              <div className="absolute right-[72px] md:right-[30px] lg:right-[72px] top-[-36px] w-[150px] h-[150px] md:relative md:w-[100px] md:h-[100px] lg:w-[250px] lg:h-[250px]">
+              <div className="absolute right-[72px] md:right-[30px] lg:right-[72px] top-[-36px] w-[150px] h-[150px] md:relative md:w-[100px] md:h-[100px] lg:w-[250px] lg:h-[150px] xxl:[250px]">
                 <Image
                   src="/assets/images/location/bg1.png"
                   alt="Decoration"
@@ -105,7 +105,7 @@ const ContactUs = () => {
 
         {/* <BorderBottom CustomClass={"w-full mt-[70px]"} /> */}
         <div className=" mt-[25px] md:mt-[50px]">
-          <Pera2 CustomClass="!text-[10px] md:!text-[12px] !leading-[20px] md:!leading-[25px] !text-center">
+          <Pera2 CustomClass="!text-[10px] xxl:!text-[12px] !leading-[20px] md:!leading-[20px] xxl:!leading-[25px] !text-center">
             This is only for information purposes and does not constitute any
             offer or contract. Customers are advised to have their independent
             evaluation. Artistic impression as shown is a pictorial
