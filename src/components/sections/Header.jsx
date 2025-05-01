@@ -53,7 +53,7 @@ const Header = () => {
           </div>
           <div className='flex items-center'>
             <a
-              href="tel:+911234567890"
+              href="tel:+917064333999"
               className="flex items-center gap-2"
               target="_blank"
             >

@@ -39,7 +39,7 @@ const ContactUs = () => {
                 {/* Contact Numbers */}
                 <div className="flex items-center gap-4">
                   <a
-                    href="tel:+911234567890"
+                    href="tel:+917064333999"
                     className="flex items-center gap-2"
                     target="_blank"
                   >
@@ -47,12 +47,12 @@ const ContactUs = () => {
                       CustomClass="rounded-full w-[40px] h-[40px]"
                       IconClass="!w-[16px]"
                     />
-                    <span className="text-[18px]">+91 1234567890</span>
+                    <span className="text-[18px]">+91 7064333999</span>
                   </a>
                 </div>
                 <div className="flex items-center gap-4">
                   <a
-                    href="https://wa.me/918888888888"
+                    href="https://wa.me/919861922925"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
@@ -62,7 +62,7 @@ const ContactUs = () => {
                       IconUrl="/assets/icons/whatsapp.png"
                       IconClass="!w-[18px]"
                     />
-                    <span className="text-[18px]">+91 888-888-8888</span>
+                    <span className="text-[18px]">+91 9861922925 </span>
                   </a>
                 </div>
               </div>
