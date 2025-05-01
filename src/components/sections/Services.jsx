@@ -24,7 +24,7 @@ const servicesRight = [
 
 const Services = ({ onEnquireClick }) => {
   return (
-    <section className="pt-[50px] bg-[#EBEAE6] relative" id="services">
+    <section className="pt-[50px] xxl:py-[80px] bg-[#EBEAE6] relative" id="services">
       <Image
         src="/assets/images/services/bg.png"
         alt="background image"

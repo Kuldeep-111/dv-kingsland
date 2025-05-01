@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Location = ({onEnquireClick}) => {
   return (
-    <section className="py-[50px] bg-[#EBEAE6]" id="location">
+    <section className="py-[50px] xxl:py-[80px] bg-[#EBEAE6]" id="location">
       <div className="container mx-auto">
         {/* Top Heading */}
         <CustomDiv CustomClass="mb-[25px] xxl:mb-[50px]">

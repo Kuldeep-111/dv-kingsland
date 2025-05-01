@@ -12,6 +12,10 @@ const amenitiesData = [
     title: 'Barbecue Lounge'
   },
   {
+    image: '/assets/images/ameneties/living_area.webp',
+    title: 'Living and Dining Area'
+  },
+  {
     image: '/assets/images/ameneties/bay_seating.webp',
     title: 'Bay Seating'
   },
@@ -58,10 +62,6 @@ const amenitiesData = [
   {
     image: '/assets/images/ameneties/library.webp',
     title: 'Library'
-  },
-  {
-    image: '/assets/images/ameneties/living_area.webp',
-    title: 'Living Area'
   },
   {
     image: '/assets/images/ameneties/lobby_lounge.webp',
@@ -127,7 +127,7 @@ const amenitiesData = [
 
 const Amenities = ({onEnquireClick}) => {
   return (
-<section className="py-[50px] bg-[#EBEAE6] relative" id="amenities">
+<section className="py-[50px] xxl:py-[80px] bg-[#EBEAE6] relative" id="amenities">
   {/* Background Image */}
   <div className="absolute inset-0 z-0">
     <Image

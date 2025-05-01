@@ -7,7 +7,7 @@ import EnquiryButton from "../utilities/EnquiryButton";
 
 const Residences = ({onEnquireClick}) => {
   return (
-    <section className="py-[50px] bg-[#EBEAE6] relative" id="residences">
+    <section className="py-[50px] xxl:py-[80px] bg-[#EBEAE6] relative" id="residences">
       <Image
         src="/assets/images/residences/bg.png"
         alt="background image"

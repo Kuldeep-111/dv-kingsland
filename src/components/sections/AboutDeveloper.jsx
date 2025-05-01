@@ -8,7 +8,7 @@ import EnquiryButton from '../utilities/EnquiryButton'
 
 const AboutDeveloper = ({onEnquireClick}) => {
   return (
-    <section className="py-[50px] relative" id="about-developer">
+    <section className="py-[50px] xxl:py-[80px] relative" id="about-developer">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image

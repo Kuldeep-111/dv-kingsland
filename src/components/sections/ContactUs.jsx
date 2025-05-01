@@ -10,7 +10,7 @@ import Link from "next/link";
 const ContactUs = () => {
   return (
     <section
-      className="pt-[50px] pb-[20px] md:pb-[50px]  md:px-[0] bg-[#EBEAE6]"
+      className="pt-[50px] pb-[20px] xxl:py-[80px] md:pb-[50px]  md:px-[0] bg-[#EBEAE6]"
       id="contact"
     >
       <div className="container mx-auto ">

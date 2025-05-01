@@ -36,9 +36,9 @@ const VirtualJourney = ({ onEnquireClick }) => {
   const handleCloseVideoModal = () => setIsVideoModalOpen(false);
 
   return (
-    <section className="py-[50px] bg-[#EBEAE6] relative" id="virtual-journey">
+    <section className="py-[50px] xxl:py-[80px] bg-[#EBEAE6] relative" id="virtual-journey">
       {/* Background Image */}
-      <div className="absolute top-[10%] right-[15%] w-[200px] h-[200px] hidden md:block">
+      <div className="absolute top-[21%] right-[10%] xxl:top-[10%] xxl:right-[15%] w-[200px] h-[200px] hidden md:block">
         <Image
           src="/assets/images/location/bg1.png"
           alt="Background"

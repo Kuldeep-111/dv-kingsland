@@ -35,7 +35,7 @@ const FloorPlan = ({onEnquireClick}) => {
   }
 
   return (
-    <section className="pt-[80px] bg-[#EBEAE6] relative" id="floorplan">
+    <section className="pt-[50px] xxl:py-[80px] bg-[#EBEAE6] relative" id="floorplan">
       <div className="container mx-auto">
         {/* Top Heading */}
         <CustomDiv CustomClass="mb-[25px] lg:mb-[35px] xxl:mb-[50px]">

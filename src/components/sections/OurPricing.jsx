@@ -7,7 +7,7 @@ import EnquiryButton from '../utilities/EnquiryButton'
 
 const OurPricing = ({onEnquireClick}) => {
   return (
-    <section className="pt-[50px] bg-[#EBEAE6] relative" id="pricing">
+    <section className="pt-[50px] xxl:py-[80px] bg-[#EBEAE6] relative" id="pricing">
       <Image
         src="/assets/images/services/bg.png"
         alt="background image"
