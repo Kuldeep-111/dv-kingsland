@@ -14,7 +14,14 @@ const Deck = ({onEnquireClick}) => {
         alt="Deck"
         layout="fill" // Ensures the image fills the container
         objectFit="cover" // Makes the image cover the entire section
-        className="absolute top-0 left-0"
+        className="absolute top-0 left-0 hidden md:block"
+      />
+       <Image
+        src="/assets/images/deck/deck_mobile.webp"
+        alt="Deck"
+        layout="fill" // Ensures the image fills the container
+        objectFit="cover" // Makes the image cover the entire section
+        className="absolute top-0 left-0 block md:hidden"
       />
 
       {/* Headings - Absolutely Positioned */}

@@ -106,11 +106,11 @@ const CustomForm = ({ CustomClass }) => {
           onChange={(e) => setFormData({ ...formData, consent: e.target.checked })}
           className="mt-1"
         />
-        <label htmlFor="consent" className="text-[14px]">
+        <label htmlFor="consent" className="text-[14px] relative">
           <Pera2 CustomClass="!leading-[14px] sm:!leading-[18px] md:!leading-[20px] xxl:!leading-[24px] !text-[10px] xxl:!text-[12px] !tracking-[0px] !text-start md:!text-center">
             I authorize company representatives to Call, SMS, Email or WhatsApp me about its products and offers. This consent overrides any registration for DNC/NDNC.
           </Pera2>
-          {errors.consent && <div className="text-red-600 text-xs mt-1">{errors.consent}</div>}
+          {errors.consent && <div className="absolute bottom-[-13px] left-0 text-red-600 text-xs mt-1">{errors.consent}</div>}
         </label>
       </div>
 
