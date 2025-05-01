@@ -42,7 +42,11 @@ const Hero = ({ onEnquireClick }) => {
             <Pera>First & Last</Pera>
             <Price text={" Since 1960"} />  
             <BorderBottom />
-            <Pera CustomClass="mt-[10px] !text-[16px] !leading-normal">Janpath, Saheed Nagar, </Pera>
+            {/* location  */}
+            <div className="flex items-center gap-[5px] mt-[10px]">
+            <Image src="/assets/icons/location.webp" width="20" height="20"/>
+            <Pera CustomClass=" !text-[16px] !leading-normal">  Janpath, Saheed Nagar, </Pera>
+            </div>
             <Pera CustomClass=" !text-[16px] !leading-normal">Annexe Bhubaneswar</Pera>
           </CustomDiv>
         </div>
@@ -67,6 +71,12 @@ const Hero = ({ onEnquireClick }) => {
           <Pera CustomClass={"text-[16px] md:text-[24px]"}>First & Last</Pera>
           <Price text={" Since 1960"} />
           <BorderBottom />
+          
+            {/*mobile location  */}
+            <div className="flex items-start gap-[5px] mt-[10px] ps-[25px] sm:ps-[45px]">
+            <Image src="/assets/icons/location.webp" width="15" height="15"/>
+            <Pera CustomClass=" !text-[12px] !leading-normal text-start">  Janpath, Saheed Nagar, Annexe Bhubaneswar</Pera>
+            </div>
         </CustomDiv>
       </div>
       <div className=" w-full px-4 block md:hidden mt-[30px]">
