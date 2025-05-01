@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Price from "../utilities/Price";
 import { CustomDiv, Pera } from "../utilities/CustomTag";
 import Header from "./Header";
@@ -8,6 +8,23 @@ import WhatsappButton from "../utilities/WhatsappButton";
 import EnquiryButton from "../utilities/EnquiryButton";
 
 const Hero = ({ onEnquireClick }) => {
+
+  const [imageSrc, setImageSrc] = useState("/assets/images/hero/hero1.webp");
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 1400) {
+        setImageSrc("/assets/images/hero/hero2.webp");
+      } else {
+        setImageSrc("/assets/images/hero/hero1.webp");
+      }
+    };
+
+    handleResize(); // run once on load
+    window.addEventListener("resize", handleResize); // update on resize
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <section
       className="bg-[#EBEAE6] relative h-auto md:h-screen w-full pt-[100px]"
@@ -17,7 +34,7 @@ const Hero = ({ onEnquireClick }) => {
       <WhatsappButton />
 
       <Image
-        src="/assets/images/hero/hero1.webp"
+        src={imageSrc}
         alt="Hero Image"
         layout="fill"
         objectFit="cover"
@@ -64,22 +81,24 @@ const Hero = ({ onEnquireClick }) => {
       </CustomDiv>
       <div className="relative block md:hidden ">
         <img
-          src="/assets/images/hero/mobile_hero.webp"
+          src="/assets/images/hero/mobile_hero1.webp"
           alt="mobile hero"
           className="block md:hidden w-full"
         />
-        <CustomDiv CustomClass="right h-full ml-auto w-1/2 flex flex-col justify-start absolute top-[30%] right-0">
+      </div>
+      
+      <CustomDiv CustomClass=" h-full ml-auto w-full flex flex-col justify-start block md:hidden mt-[30px]">
           <Pera CustomClass={"text-[16px] md:text-[24px]"}>First & Last</Pera>
           <Price text={" Since 1960"} />
           <BorderBottom />
           
             {/*mobile location  */}
-            <div className="flex items-start gap-[5px] mt-[10px] ps-[25px] sm:ps-[45px]">
+            <div className="flex items-start gap-[5px] mt-[20px] ">
             <Image src="/assets/icons/location.webp" alt="Location Background" width="15" height="15"/>
-            <Pera CustomClass=" !text-[12px] !leading-normal text-start">  Janpath, Saheed Nagar, Annexe Bhubaneswar</Pera>
+            <Pera CustomClass=" !text-[12px] !leading-normal text-start">  Janpath, Saheed Nagar, </Pera>
             </div>
+            <Pera CustomClass=" !text-[12px] !leading-normal text-center mt-[5px]">  Annexe Bhubaneswar</Pera>
         </CustomDiv>
-      </div>
       <div className=" w-full px-4 block md:hidden mt-[30px]">
         <div className="flex flex-col items-start gap-4">
           <CustomDiv CustomClass="left w-full flex flex-col justify-start">

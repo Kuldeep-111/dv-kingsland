@@ -54,7 +54,7 @@ const FloorPlan = ({onEnquireClick}) => {
               }}
               className={`px-6 py-2 transition-all duration-300 py-[12px] px-[55px] tracking-[2px] ${
                 activeTab === plan.id
-                  ? 'bg-[#705118] text-white'
+                  ? 'bg-[#705118] text-white '
                   : 'bg-white text-[#705118] hover:bg-[#705118] hover:text-white'
               }`}
             >
@@ -70,7 +70,7 @@ const FloorPlan = ({onEnquireClick}) => {
             <div className="absolute inset-0 bg-black/30 backdrop-blur-md z-10 flex items-center justify-center">
               <button
                 onClick={onEnquireClick}
-                className="bg-[#705118] text-white px-8 py-3  hover:bg-[#8a6a2b] transition-all duration-300"
+                className="bg-[#705118] text-white px-8 py-3  hover:bg-[#c49945] transition-all duration-300"
               >
                 View Plan
               </button>
@@ -106,7 +106,7 @@ const FloorPlan = ({onEnquireClick}) => {
                 <div className="absolute inset-0 bg-black/30 backdrop-blur-md z-10 flex items-center justify-center">
                   <button
                     onClick={onEnquireClick}
-                    className="bg-white border-1 border-[#705118] text-[#705118] px-8 py-3  hover:bg-[#8a6a2b] transition-all duration-300"
+                    className="bg-white border-1 border-[#705118] text-[#705118] px-8 py-3  "
                   >
                     View Plan
                   </button>

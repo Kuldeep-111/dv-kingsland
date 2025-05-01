@@ -68,7 +68,7 @@ const Location = ({onEnquireClick}) => {
                 1960 crafted for those who desire the extraordinary.
               </Pera2>
               <div className="relative hidden md:flex items-center gap-4 mt-[40px] ">
-                <button className="bg-[#705118] text-white w-[240px] h-[45px] mt-[40px] cursor-pointer" onClick={onEnquireClick}>
+                <button className="bg-[#705118] hover:bg-[#c49945] transition-all duration-300 text-white w-[240px] h-[45px] mt-[40px] cursor-pointer" onClick={onEnquireClick}>
                   View Location Map
                 </button>
                 <div className="absolute right-0 top-[-75%] w-[250px] h-[250px]">

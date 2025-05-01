@@ -51,7 +51,7 @@ const Slider = ({ items = [],isJourney=false,CustomClass ,CustomHeight,onEnquire
                   </div>
                 )}
               </div>
-              {!isJourney && <EnquiryButton onClick={onEnquireClick} CustomClass="mt-[20px] xxl:mt-[50px] !bg-white !text-black !font-semibold tracking-[2px] text-[14px] md:text-xl"/>}
+              {!isJourney && <EnquiryButton onClick={onEnquireClick} CustomClass="mt-[20px] xxl:mt-[50px] !bg-white hover:!bg-[#eeecec] transition-all duration-300 !text-black !font-semibold tracking-[2px] text-[14px] md:text-xl"/>}
             </div>
           </SwiperSlide>
         ))}
@@ -59,26 +59,23 @@ const Slider = ({ items = [],isJourney=false,CustomClass ,CustomHeight,onEnquire
         {isJourney ? <>
         
         {/* Custom Navigation Buttons */}
-        <div className="swiper-button-prev !w-[25px] !h-[25px] md:!w-[40px] md:!h-[40px]   !text-white flex items-center justify-center absolute !left-[7%] md:!left-[14.2%] !top-[60%] md:!top-[55%] transform -translate-y-1/2">
-          <Image src='/assets/icons/clr-left-arrow.png' alt="Previous"  fill 
-    style={{ objectFit: 'contain' }}/>
+        <div className="swiper-button-prev  !w-[25px] !h-[25px] md:!w-[40px] md:!h-[40px] border-2 border-[#705118] rounded-full !text-white flex items-center justify-center absolute !left-[8.5%] md:!left-[14.2%] !top-[60%] md:!top-1/2 transform -translate-y-1/2">
+        <Image src='/assets/icons/color-arrow.webp' alt="Previous" width={20} height={20} className='!w-[15px] !h-[10px] md:!w-[20px] md:!h-[20px] scale-x-[-1]' />
         </div>
         
-        <div className="swiper-button-next !w-[25px] !h-[25px] md:!w-[40px] md:!h-[40px]    !text-white flex items-center justify-center absolute !right-[7%] md:!right-[14.2%]  !top-[60%] md:!top-[55%] transform -translate-y-1/2">
-         
-          <Image src='/assets/icons/clr-right-arrow.png' alt="Next"  fill 
-    style={{ objectFit: 'contain' }} />
+        <div className="swiper-button-next  !w-[25px] !h-[25px] md:!w-[40px] md:!h-[40px] border-2 border-[#705118] rounded-full !text-white flex items-center justify-center absolute !right-[8.5%] md:!right-[14.2%] !top-[60%] md:!top-1/2 transform -translate-y-1/2">
+        <Image src='/assets/icons/color-arrow.webp' alt="Next"  width={20} height={20} className='!w-[15px] !h-[10px] md:!w-[20px] md:!h-[20px]'/>
         </div>
         
         </> : <>
         
         
-        <div className="swiper-button-prev  !w-[25px] !h-[25px] md:!w-[40px] md:!h-[40px] border border-white rounded-full !text-white flex items-center justify-center absolute !left-[5.5%] md:!left-[14.2%] !top-[47%] md:!top-1/2 transform -translate-y-1/2">
-        <Image src='/assets/icons/left-arrow.png' alt="Previous" width={20} height={20} className='!w-[15px] !h-[10px] md:!w-[20px] md:!h-[20px]' />
+        <div className="swiper-button-prev  !w-[25px] !h-[25px] md:!w-[40px] md:!h-[40px] border-2 border-white rounded-full !text-white flex items-center justify-center absolute !left-[7.5%] md:!left-[14.2%] !top-[47%] md:!top-1/2 transform -translate-y-1/2">
+        <Image src='/assets/icons/white-arrow.webp' alt="Previous" width={20} height={20} className='!w-[15px] !h-[10px] md:!w-[20px] md:!h-[20px] scale-x-[-1]' />
         </div>
         
-        <div className="swiper-button-next  !w-[25px] !h-[25px] md:!w-[40px] md:!h-[40px] border border-white rounded-full !text-white flex items-center justify-center absolute !right-[5.5%] md:!right-[14.2%] !top-[47%] md:!top-1/2 transform -translate-y-1/2">
-        <Image src='/assets/icons/right-arrow.png' alt="Next"  width={20} height={20} className='!w-[15px] !h-[10px] md:!w-[20px] md:!h-[20px]'/>
+        <div className="swiper-button-next  !w-[25px] !h-[25px] md:!w-[40px] md:!h-[40px] border-2 border-white rounded-full !text-white flex items-center justify-center absolute !right-[7.5%] md:!right-[14.2%] !top-[47%] md:!top-1/2 transform -translate-y-1/2">
+        <Image src='/assets/icons/white-arrow.webp' alt="Next"  width={20} height={20} className='!w-[15px] !h-[10px] md:!w-[20px] md:!h-[20px]'/>
         </div>
         </>}
 

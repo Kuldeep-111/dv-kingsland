@@ -118,7 +118,7 @@ const CustomForm = ({ CustomClass }) => {
       <button
         type="submit"
         disabled={loading}
-        className="bg-[#705118] text-white px-8 py-3 w-full max-w-[250px] font-montserrat mx-auto hover:bg-[#8a6a2b] transition-all duration-300 disabled:opacity-50"
+        className="bg-[#705118] text-white px-8 py-3 w-full max-w-[250px] font-montserrat mx-auto hover:bg-[#c49945] transition-all duration-300 disabled:opacity-50"
       >
         {loading ? "Submitting..." : "Submit Now"}
       </button>

@@ -61,7 +61,7 @@ const Header = () => {
             </a>
             <button 
               onClick={() => setIsSidebarOpen(true)}
-              className='w-[30px] ml-4'
+              className='w-[30px] ml-4 '
             >
               <Image
                 src="/assets/icons/menu.svg"
