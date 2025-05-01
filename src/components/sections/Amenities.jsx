@@ -118,10 +118,6 @@ const amenitiesData = [
   {
     image: '/assets/images/ameneties/treatment_room.webp',
     title: 'Treatment Room'
-  },
-  {
-    image: '/assets/images/ameneties/white_gloves.webp',
-    title: 'White Gloves'
   }
 ]
 
