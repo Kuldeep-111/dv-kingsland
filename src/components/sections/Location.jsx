@@ -18,7 +18,7 @@ const Location = ({onEnquireClick}) => {
       {/* Background Image and Content Section */}
       <div className="relative">
         <Image
-          src="/assets/images/location/background.svg"
+          src="/assets/images/location/background.webp"
           alt="Location Background"
           fill
           className="object-cover"
@@ -29,7 +29,7 @@ const Location = ({onEnquireClick}) => {
             {/* Left Section - Map */}
             <div className="relative  md:col-span-6 order-2 md:order-1 h-[300px] md:h-[400px] xll:[500px]">
               <Image
-                src="/assets/images/location/map.png"
+                src="/assets/images/location/map.webp"
                 alt="Location Map"
                 fill
                 className="object-cover"
@@ -73,7 +73,7 @@ const Location = ({onEnquireClick}) => {
                 </button>
                 <div className="absolute right-0 top-[-75%] w-[250px] h-[250px]">
                   <Image
-                    src="/assets/images/location/bg1.png"
+                    src="/assets/images/fullBg.webp"
                     alt="Decoration"
                     fill
                     className="object-contain"

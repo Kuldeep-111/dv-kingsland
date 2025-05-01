@@ -9,20 +9,20 @@ const OurPricing = ({onEnquireClick}) => {
   return (
     <section className="pt-[50px] xxl:py-[80px] bg-[#EBEAE6] relative" id="pricing">
       <Image
-        src="/assets/images/services/bg.png"
+        src="/assets/images/bg.webp"
         alt="background image"
         width={100} // specify width
         height={200} // specify height
-        className="absolute top-[44%] left-0 hidden md:block"
+        className="absolute top-[40%] left-0 hidden md:block"
         priority // if you want to load early (optional)
       />
 
       <Image
-        src="/assets/images/services/bg.png"
+        src="/assets/images/bg.webp"
         alt="background image mirrored"
         width={100}
         height={200}
-        className="absolute top-[44%] right-0 transform scale-x-[-1] hidden md:block"
+        className="absolute top-[40%] right-0 transform scale-x-[-1] hidden md:block"
         priority
       />
       <div className="container mx-auto">
@@ -40,7 +40,7 @@ const OurPricing = ({onEnquireClick}) => {
       </div>
 
       {/* Full Width Image */}
-      <div className="relative pb-[150px] md:pb-[0]">
+      <div className="relative pb-[50px] sm:pb-[150px] md:pb-[0]">
       <div className="relative w-full h-[500px] hidden md:block">
   <Image
     src="/assets/images/pricing/image2.webp"
@@ -73,10 +73,10 @@ const OurPricing = ({onEnquireClick}) => {
         {/* mobile start */}
         <div className="absolute inset-x-0 bottom-0 z-[1] block md:hidden h-[80%] w-full">
   <Image
-    src="/assets/images/pricing/mobile_bg.png"
+    src="/assets/images/pricing/mobile_bg.webp"
     alt="Background"
     fill
-    className="object-cover object-bottom"
+    className="object-cover object-top"
   />
 </div>
         <div className=' block md:hidden w-full relative z-10'>

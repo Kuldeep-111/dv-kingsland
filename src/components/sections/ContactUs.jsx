@@ -68,7 +68,7 @@ const ContactUs = () => {
               </div>
               <div className="absolute right-[72px] md:right-[30px] lg:right-[72px] top-[-36px] w-[150px] h-[150px] md:relative md:w-[100px] md:h-[100px] lg:w-[250px] lg:h-[150px] xxl:[250px]">
                 <Image
-                  src="/assets/images/location/bg1.png"
+                  src="/assets/images/fullBg.webp"
                   alt="Decoration"
                   fill
                   className="object-contain"

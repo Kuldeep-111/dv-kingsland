@@ -12,7 +12,7 @@ const AboutDeveloper = ({onEnquireClick}) => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/assets/images/about-developer/bg.png"
+          src="/assets/images/about-developer/bg.webp"
           alt="Background"
           fill
           className="object-cover"

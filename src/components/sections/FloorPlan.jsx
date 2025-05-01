@@ -13,19 +13,19 @@ const FloorPlan = ({onEnquireClick}) => {
     { 
       id: 'site-plan', 
       label: 'Site Plan',
-      image: '/assets/images/floorplan/master-plan-img-1.png',
+      image: '/assets/images/floorplan/master-plan-img-1.webp',
       title: 'Strategic Site Planning'
     },
     { 
       id: '4bhk-plan', 
       label: '4 BHK Plan',
-      image: '/assets/images/floorplan/master-plan-img-1.png',
+      image: '/assets/images/floorplan/master-plan-img-1.webp',
       title: '4 BHK Luxury Residence'
     },
     { 
       id: '5bhk-plan', 
       label: '5 BHK Plan',
-      image: '/assets/images/floorplan/master-plan-img-1.png',
+      image: '/assets/images/floorplan/master-plan-img-1.webp',
       title: '5 BHK Premium Residence'
     }
   ]

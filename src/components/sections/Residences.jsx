@@ -9,7 +9,7 @@ const Residences = ({onEnquireClick}) => {
   return (
     <section className="py-[50px] xxl:py-[80px] bg-[#EBEAE6] relative" id="residences">
       <Image
-        src="/assets/images/residences/bg.png"
+        src="/assets/images/bg.webp"
         alt="background image"
         width={150} // adjust as per actual image size or layout
         height={250}
@@ -17,7 +17,7 @@ const Residences = ({onEnquireClick}) => {
       />
 
       <Image
-        src="/assets/images/residences/bg.png"
+        src="/assets/images/bg.webp"
         alt="background image"
         width={150}
         height={250}
@@ -49,7 +49,7 @@ const Residences = ({onEnquireClick}) => {
             <div className="after:block after:w-[1px] after:h-[150px] after:bg-[#A39264] after:absolute after:bottom-[-20px] after:right-[6px]"></div>
           </div>
           <Image
-            src="/assets/images/residences/about.png"
+            src="/assets/images/residences/about.webp"
             alt="Residences"
             fill
             className="object-cover"

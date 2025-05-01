@@ -13,7 +13,7 @@ const virtualJourneyData = [
     image: "/assets/images/virtual-journey/clubhouse_lobby.webp",
   },
   {
-    image: "/assets/images/virtual-journey/image1.png",
+    image: "/assets/images/virtual-journey/image1.webp",
   },
   {
     image: "/assets/images/virtual-journey/dining_area.webp",
@@ -40,7 +40,7 @@ const VirtualJourney = ({ onEnquireClick }) => {
       {/* Background Image */}
       <div className="absolute top-[21%] right-[10%] xxl:top-[10%] xxl:right-[15%] w-[200px] h-[200px] hidden md:block">
         <Image
-          src="/assets/images/location/bg1.png"
+          src="/assets/images/fullBg.webp"
           alt="Background"
           fill
           className="object-contain"

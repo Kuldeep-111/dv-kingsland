@@ -26,7 +26,7 @@ const Services = ({ onEnquireClick }) => {
   return (
     <section className="pt-[50px] xxl:py-[80px] bg-[#EBEAE6] relative" id="services">
       <Image
-        src="/assets/images/services/bg.png"
+        src="/assets/images/bg.webp"
         alt="background image"
         width={100} // specify width
         height={200} // specify height
@@ -35,7 +35,7 @@ const Services = ({ onEnquireClick }) => {
       />
 
       <Image
-        src="/assets/images/services/bg.png"
+        src="/assets/images/bg.webp"
         alt="background image mirrored"
         width={100}
         height={200}
@@ -82,7 +82,7 @@ const Services = ({ onEnquireClick }) => {
           {/* Middle Column (40%) */}
           <div className="relative h-[400px] md:h-[420px] xxl:h-[600px]">
             <Image
-              src="/assets/images/services/image1.png"
+              src="/assets/images/services/image1.webp"
               alt="Center Service"
               fill
               className="object-cover"

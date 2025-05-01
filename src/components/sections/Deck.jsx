@@ -10,7 +10,7 @@ const Deck = ({onEnquireClick}) => {
     <section className="relative h-[90vh] xll:h-screen w-full" id="deck">
       {/* Background Image */}
       <Image
-        src="/assets/images/deck/spacious_deck.png"
+        src="/assets/images/deck/spacious_deck.webp"
         alt="Deck"
         layout="fill" // Ensures the image fills the container
         objectFit="cover" // Makes the image cover the entire section
