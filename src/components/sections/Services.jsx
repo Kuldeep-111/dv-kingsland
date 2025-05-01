@@ -9,9 +9,9 @@ const servicesLeft = [
   "household",
   "Family Support",
   "Skill Development",
-  "Leisure & Entmt.",
+  "Leisure & Entertainment",
   "Shopping Assistance",
-  "Automotive Serv.",
+  "Automotive Service",
 ];
 const servicesRight = [
   "Pets",
@@ -19,7 +19,7 @@ const servicesRight = [
   "Bill Payments",
   "Mind & Body",
   "Travel Assistance",
-  "Wealth Mgmt.",
+  "Wealth Management",
 ];
 
 const Services = ({ onEnquireClick }) => {
