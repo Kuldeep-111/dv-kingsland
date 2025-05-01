@@ -42,7 +42,7 @@ const Deck = ({onEnquireClick}) => {
       {/* <Pera CustomClass="text-[32px] mt-[20px]"> Now with a Deck </Pera> */}
         </div>
         
-      <div className='absolute bottom-[30px] left-0 w-full  px-[15px] block md:hidden'>
+      <div className='absolute bottom-[30px] left-0 w-full  px-[15px] flex justify-center md:hidden'>
       {/* <Price text={'king of all deck'} firstText="!text-[22px]" OtherText="!text-[20px]" CustomClass={'mt-2 !text-white !justify-start'} /> */}
       <EnquiryButton onClick={onEnquireClick} CustomClass="mt-[20px] bg-white !text-black"/>
       </div>
