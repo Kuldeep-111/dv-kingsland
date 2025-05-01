@@ -41,7 +41,7 @@ const Location = ({onEnquireClick}) => {
             <div className="flex order-1  md:col-span-6 md:order-2 flex-col justify-start xll:justify-center">
               <Price
                 text={
-                  "ROYALS SHOULD NOT WAIT."
+                  "Where Prestige Meets Proximity"
                 }
                 CustomClass={" !text-black font-normal justify-center md:justify-start pr-[0] sm:pr-[15px]"}
                 firstText="!text-[16px] sm:!text-[20px] md:!text-[26px]"
@@ -49,7 +49,7 @@ const Location = ({onEnquireClick}) => {
               />
               <Price
                 text={
-                  "LEADING THE WAY IN"
+                  "DN Kingsland at the"
                 }
                 CustomClass={" !text-black font-normal justify-center md:justify-start pr-[0] sm:pr-[15px]"}
                 firstText="!text-[16px] sm:!text-[20px] md:!text-[26px]"
@@ -57,7 +57,7 @@ const Location = ({onEnquireClick}) => {
               />
               <Price
                 text={
-                  "SUPERIOR CONNECTIVITY."
+                  "Heart of Bhubaneswar"
                 }
                 CustomClass={" !text-black font-normal justify-center md:justify-start pr-[0] sm:pr-[15px]"}
                 firstText="!text-[16px] sm:!text-[20px] md:!text-[26px]"
