@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useRouter } from "next/navigation";
 
-export const useFormSubmit = (projectName) => {
+export const useFormSubmit = ({projectName,path}) => {
     const [loading, setLoading] = useState(false);
     const [response, setResponse] = useState(null);
     const [error, setError] = useState(null);

@@ -6,16 +6,16 @@ import { useFormSubmit } from '@/app/hooks/UseFormSubmit';
 const CustomForm = ({ CustomClass }) => {
   const path = usePathname();
 
-  let finalFormName = "";
-  if (path === "/remarketing/") {
+  console.log(path,"path");
+  let finalFormName = "DN Kingsland";
+
+  if (path.includes("remarketing")) {
     finalFormName = "DN Kingsland Remarketing";
-  } else if (path === "/discovery/") {
+  } else if (path.includes("discovery")) {
     finalFormName = "DN Kingsland Discovery";
-  } else {
-    finalFormName = "DN Kingsland";
   }
 
-  const { handleSubmit, loading } = useFormSubmit(finalFormName);
+  const { handleSubmit, loading } = useFormSubmit({projectName: finalFormName,path});
 
   const [formData, setFormData] = useState({
     name: '',

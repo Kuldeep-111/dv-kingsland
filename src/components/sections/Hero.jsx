@@ -106,10 +106,22 @@ const Hero = ({ onEnquireClick }) => {
             <Price text={" ₹ 5.40 cr*"} span={"onwards"} />
             <BorderBottom CustomClass={"w-[200px]"} />
           </CustomDiv>
-          <EnquiryButton
-            onClick={onEnquireClick}
-            CustomClass="w-[250px] mx-auto"
-          />
+          <div className="flex flex-wrap justify-center gap-[5px] sm:gap-[10px] mb-[20px] md:px-[0] w-full">
+          <EnquiryButton onClick={onEnquireClick} CustomClass="!text-[12px] sm:!text-[14px]"/>
+          
+          <a
+              href="tel:+917064333999"
+              className="flex items-center gap-2"
+              target="_blank"
+            >
+          <button
+            type="button"
+            className="bg-[#705118] hover:bg-[#c49945] transition-all duration-300 cursor-pointer text-[12px] sm:text-[14px] md:text-[16px] xxl:text-[20px] text-white py-[8px] xxl:py-[12px] px-[17px] sm:px-[35px] xxl:px-[55px] tracking-[1px] sm:tracking-[2px]"
+          >
+            Tap a Call
+          </button>
+          </a>
+        </div>
         </div>
       </div>
     </section>
