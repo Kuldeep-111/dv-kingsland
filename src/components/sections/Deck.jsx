@@ -2,6 +2,7 @@ import React from 'react'
 import { Pera } from '../utilities/CustomTag'
 import Image from 'next/image'
 import EnquiryButton from '../utilities/EnquiryButton'
+import Link from 'next/link'
 
 const Deck = ({onEnquireClick}) => {
   return (
@@ -21,6 +22,7 @@ const Deck = ({onEnquireClick}) => {
         objectFit="cover" // Makes the image cover the entire section
         className="absolute top-0 left-0 block md:hidden"
       />
+      <ul class="absolute left-[0] bottom-[0] py-[6px] px-[6px] flex  place-items-center justify-between bg-[#191616] w-full"><li class="leading-[normal] text-[#fff] normal-case tracking-[normal] text-[8px] md:text-[10px]">Artistic Impression</li><li class="leading-[normal] text-[#fff] normal-case tracking-[normal] text-[8px] md:text-[10px]">MP/19/2023/01042</li><Link class="text-[8px] normal-case text-[#fff] leading-[0] md:text-[10px] tracking-[normal] leading-[normal]" href="https://rera.odisha.gov.in/" target="_blank">https://rera.odisha.gov.in/</Link></ul>
 
       {/* Headings - Absolutely Positioned */}
       <div className="absolute top-[150px] left-[50px] md:left-[100px] hidden md:flex flex-col items-center">

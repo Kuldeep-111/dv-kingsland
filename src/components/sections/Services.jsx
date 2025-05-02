@@ -4,6 +4,7 @@ import Price from "../utilities/Price";
 import BorderBottom from "../utilities/BorderBottom";
 import Image from "next/image";
 import EnquiryButton from "../utilities/EnquiryButton";
+import Link from "next/link";
 
 const servicesLeft = [
   "household",
@@ -87,6 +88,7 @@ const Services = ({ onEnquireClick }) => {
               fill
               className="object-cover"
             />
+            <ul class="absolute left-[0] bottom-[0] py-[6px] px-[6px] flex  place-items-center justify-between bg-[#191616] w-full"><li class="leading-[normal] text-[#fff] normal-case tracking-[normal] text-[8px] md:text-[10px]">Artistic Impression</li><li class="leading-[normal] text-[#fff] normal-case tracking-[normal] text-[8px] md:text-[10px]">MP/19/2023/01042</li><Link class="text-[8px] normal-case text-[#fff] leading-[0] md:text-[10px] tracking-[normal] leading-[normal]" href="https://rera.odisha.gov.in/" target="_blank">https://rera.odisha.gov.in/</Link></ul>
           </div>
 
           {/* Right Column (30%) */}

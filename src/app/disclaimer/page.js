@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Disclaimer = () => {
     return (
       <div
@@ -17,10 +19,12 @@ const Disclaimer = () => {
   
           <p style={{ paddingTop: '10px', textAlign: 'justify', lineHeight: '24px' }}>
             <b style={{  fontSize: '15px' }}>Disclaimer: </b>
-            This website is only for the purpose of providing information regarding real estate projects in different regions, by accessing this website.
+            The images shown herein are artistic impressions/ stock images and are only for representational purposes and are indicative in nature. The final specifications of the project shall be as per the agreement executed between the parties. The RERA official website is <Link className="text-[#705118]" href="https://rera.odisha.gov.in/" target="_blank">https://www.rera.odisha.gov.in/</Link>. Project RERA Registration Number: MP/19/2023/01042. *Use of sports and community facilities shall be subject to payment of charges and other terms and conditions. Not a site photograph. Only an artistic impression. *Map is for representational purposes only. Distances sourced from Google maps. Actual distances may vary. Terms & Conditions Apply.
             <br />
-            Please also note that the company has not verified the information and the compliances.
-            <br />
+            Promoter: M/S Paramitra SmartInfra Sna Pvt. Ltd.
+            <br/>
+            (A Group Company of DN Homes Pvt. Ltd.)
+            <br/>
             <strong>This site is for information purposes only and should not be treated as the official website.</strong>
           </p>
   

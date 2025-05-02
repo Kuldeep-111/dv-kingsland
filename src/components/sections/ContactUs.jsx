@@ -86,12 +86,13 @@ const ContactUs = () => {
             {/* Website Link */}
             <div className="flex flex-wrap justify-center md:justify-start md:flex-nowrap items-center gap-4">
               Rera website link :
-              <a
-                href="https://www.example.com"
+              <Link
+                href="https://rera.odisha.gov.in/"
+                target="_blank"
                 className="text-[18px] hover:text-[#705118] transition-colors"
               >
                 https://rera.odisha.gov.in/
-              </a>
+              </Link>
             </div>
           </div>
 
