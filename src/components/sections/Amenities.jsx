@@ -109,7 +109,7 @@ const amenitiesData = [
   },
   {
     image: '/assets/images/ameneties/spa_saloon_reception.webp',
-    title: 'Spa Saloon Reception'
+    title: 'Spa Salon Reception'
   },
   {
     image: '/assets/images/ameneties/treatment_room.webp',
