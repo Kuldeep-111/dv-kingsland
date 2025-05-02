@@ -15,7 +15,7 @@ const CustomForm = ({ CustomClass }) => {
     finalFormName = "DN Kingsland Discovery";
   }
 
-  const { handleSubmit, loading } = useFormSubmit({projectName: finalFormName,path});
+  const { handleSubmit, loading } = useFormSubmit(finalFormName);
 
   const [formData, setFormData] = useState({
     name: '',
