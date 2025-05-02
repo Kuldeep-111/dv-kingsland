@@ -96,10 +96,6 @@ const amenitiesData = [
     title: 'Private Dining'
   },
   {
-    image: '/assets/images/ameneties/rooftop_pool.webp',
-    title: 'Rooftop Pool'
-  },
-  {
     image: '/assets/images/ameneties/sky_bridge.webp',
     title: 'Sky Bridge'
   },
