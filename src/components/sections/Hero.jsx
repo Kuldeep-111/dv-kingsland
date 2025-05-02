@@ -6,6 +6,7 @@ import Image from "next/image";
 import BorderBottom from "../utilities/BorderBottom";
 import WhatsappButton from "../utilities/WhatsappButton";
 import EnquiryButton from "../utilities/EnquiryButton";
+import Link from "next/link";
 
 const Hero = ({ onEnquireClick }) => {
 
@@ -109,7 +110,7 @@ const Hero = ({ onEnquireClick }) => {
           <div className="flex flex-wrap justify-center gap-[5px] sm:gap-[10px] mb-[20px] md:px-[0] w-full">
           <EnquiryButton onClick={onEnquireClick} CustomClass="!text-[12px] sm:!text-[14px]"/>
           
-          <a
+          <Link
               href="tel:+917064333999"
               className="flex items-center gap-2"
               target="_blank"
@@ -120,7 +121,7 @@ const Hero = ({ onEnquireClick }) => {
           >
             Tap To Call
           </button>
-          </a>
+          </Link>
         </div>
         </div>
       </div>
