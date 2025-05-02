@@ -9,7 +9,7 @@ import Slider from '../Slider'
 const amenitiesData = [
   {
     image: '/assets/images/ameneties/bardeque_lounge.webp',
-    title: 'Barbecue Lounge'
+    title: 'Barbeque Lounge'
   },
   {
     image: '/assets/images/ameneties/living_area.webp',
