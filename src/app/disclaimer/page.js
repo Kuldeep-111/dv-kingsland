@@ -31,7 +31,7 @@ const Disclaimer = () => {
             In our endeavour and commitment to protecting your personal information, we have designed this comprehensive privacy policy.
           </p>
   
-          <p style={{ paddingTop: '10px', textAlign: 'justify', lineHeight: '24px' }}>
+          {/* <p style={{ paddingTop: '10px', textAlign: 'justify', lineHeight: '24px' }}>
             <b >Updating privacy policy: </b>
             This privacy policy is subject to change and review without any prior notice.
           </p>
@@ -44,7 +44,7 @@ const Disclaimer = () => {
           <p style={{ paddingTop: '10px', textAlign: 'justify', lineHeight: '24px' }}>
             <b >Security: </b>
             To ensure security while transferring sensitive information, all the ongoing transmissions between client and server are encrypted.
-          </p>
+          </p> */}
         </div>
   
       

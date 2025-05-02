@@ -5,8 +5,7 @@ import { useFormSubmit } from '@/app/hooks/UseFormSubmit';
 
 const CustomForm = ({ CustomClass }) => {
   const path = usePathname();
-
-  console.log(path,"path");
+  
   let finalFormName = "DN Kingsland";
 
   if (path.includes("remarketing")) {

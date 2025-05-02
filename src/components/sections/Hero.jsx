@@ -14,7 +14,7 @@ const Hero = ({ onEnquireClick }) => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 1400) {
-        setImageSrc("/assets/images/hero/hero2.webp");
+        setImageSrc("/assets/images/hero/hero3.webp");
       } else {
         setImageSrc("/assets/images/hero/hero1.webp");
       }

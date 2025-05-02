@@ -52,7 +52,7 @@ const AboutDeveloper = ({onEnquireClick}) => {
           </div>
 
           {/* Enquiry Button */}
-          <EnquiryButton CustomClass={'!bg-white hover:!bg-[#eeecec] transition-all duration-300 !text-black !text-[14px] md:!text-[16px]'} onClick={onEnquireClick}/>
+          <EnquiryButton CustomClass={'!bg-white hover:!bg-[#e9e8e8] transition-all duration-300 !text-black !text-[14px] md:!text-[16px]'} onClick={onEnquireClick}/>
         </div>
       </div>
     </section>

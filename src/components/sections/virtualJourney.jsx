@@ -64,7 +64,7 @@ const VirtualJourney = ({ onEnquireClick }) => {
             onClick={handleOpenVideoModal}
             className="bg-[#705118] hover:bg-[#c49945] transition-all duration-300 cursor-pointer text-[14px] md:text-[16px] xxl:text-[20px] text-white py-[8px] xxl:py-[12px] px-[17px] sm:px-[35px] xxl:px-[55px] tracking-[2px]"
           >
-            Walkthrough
+            Walk-through
           </button>
           <EnquiryButton onClick={onEnquireClick} />
         </div>
