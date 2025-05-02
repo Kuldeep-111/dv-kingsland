@@ -38,7 +38,7 @@ const ContactUs = () => {
               <div className="flex flex-col gap-6 w-full justify-center">
                 {/* Contact Numbers */}
                 <div className="flex items-center gap-4">
-                  <a
+                  <Link
                     href="tel:+917064333999"
                     className="flex items-center gap-2"
                     target="_blank"
@@ -48,10 +48,10 @@ const ContactUs = () => {
                       IconClass="!w-[16px]"
                     />
                     <span className="text-[18px]">+91 7064333999</span>
-                  </a>
+                  </Link>
                 </div>
                 <div className="flex items-center gap-4">
-                  <a
+                  <Link
                     href="https://wa.me/919861922925"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -63,7 +63,7 @@ const ContactUs = () => {
                       IconClass="!w-[18px]"
                     />
                     <span className="text-[18px]">+91 9861922925 </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="absolute right-[72px] md:right-[30px] lg:right-[72px] top-[-36px] w-[150px] h-[150px] md:relative md:w-[100px] md:h-[100px] lg:w-[250px] lg:h-[150px] xxl:[250px]">
@@ -119,12 +119,12 @@ const ContactUs = () => {
               Disclaimer & Privacy Policy
             </Link>{" "}
             | Copyright ©DN Kingsland 2025. All Rights Reserved | Crafted by{" "}
-            <a
+            <Link
               href="https://www.gtftechnologies.com/"
               className="hover:underline text-[#705118] font-montserrat"
             >
               GTF Technologies
-            </a>
+            </Link>
           </p>
         </div>
       </div>

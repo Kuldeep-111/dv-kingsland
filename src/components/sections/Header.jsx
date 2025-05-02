@@ -4,6 +4,7 @@ import EnquiryButton from '../utilities/EnquiryButton';
 import CallButton from '../utilities/CallButton';
 import Image from 'next/image';
 import Sidebar from '../Sidebar';
+import Link from 'next/link';
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -52,13 +53,13 @@ const Header = () => {
             />
           </div>
           <div className='flex items-center'>
-            <a
+            <Link
               href="tel:+917064333999"
               className="flex items-center gap-2"
               target="_blank"
             >
               <CallButton />
-            </a>
+            </Link>
             <button 
               onClick={() => setIsSidebarOpen(true)}
               className='w-[30px] ml-4 '
