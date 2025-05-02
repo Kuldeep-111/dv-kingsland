@@ -73,7 +73,7 @@ const amenitiesData = [
   },
   {
     image: '/assets/images/ameneties/lounge_reception.webp',
-    title: 'BLounge Reception'
+    title: 'Lounge Reception'
   },
   {
     image: '/assets/images/ameneties/mini_theatre.webp',
