@@ -4,7 +4,6 @@ import Price from "../utilities/Price";
 import BorderBottom from "../utilities/BorderBottom";
 import Image from "next/image";
 import EnquiryButton from "../utilities/EnquiryButton";
-import Link from "next/link";
 import ImageRera from "../utilities/ImageRera";
 
 const servicesLeft = [

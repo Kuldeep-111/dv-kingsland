@@ -24,8 +24,6 @@ const Disclaimer = () => {
             Promoter: M/S Paramitra SmartInfra Sna Pvt. Ltd.
             <br/>
             (A Group Company of DN Homes Pvt. Ltd.)
-            <br/>
-            <strong>This site is for information purposes only and should not be treated as the official website.</strong>
           </p>
   
           <p style={{ paddingTop: '10px', textAlign: 'justify', lineHeight: '24px' }}>
