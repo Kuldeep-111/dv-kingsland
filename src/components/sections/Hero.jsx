@@ -118,7 +118,7 @@ const Hero = ({ onEnquireClick }) => {
             type="button"
             className="bg-[#705118] hover:bg-[#c49945] transition-all duration-300 cursor-pointer text-[12px] sm:text-[14px] md:text-[16px] xxl:text-[20px] text-white py-[8px] xxl:py-[12px] px-[17px] sm:px-[35px] xxl:px-[55px] tracking-[1px] sm:tracking-[2px]"
           >
-            Tap a Call
+            Tap To Call
           </button>
           </a>
         </div>
