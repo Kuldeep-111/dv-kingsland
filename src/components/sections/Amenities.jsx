@@ -85,7 +85,7 @@ const amenitiesData = [
   },
   {
     image: '/assets/images/ameneties/mutlipurpose_hall.webp',
-    title: 'Multipurpose'
+    title: 'Multipurpose Hall'
   },
   {
     image: '/assets/images/ameneties/new_gate.webp',
