@@ -52,7 +52,7 @@ const Hero = ({ onEnquireClick }) => {
         <div className="bottom flex h-[65%] w-full">
           <CustomDiv CustomClass="left h-full w-1/2 hidden md:flex flex-col justify-start">
             <Pera>Starting Price</Pera>
-            <Price text={" ₹ 5.40 cr*"}  />
+            <Price text={" ₹ 5.10 cr*"}  />
             <BorderBottom CustomClass={"w-[200px]"} />
             <span className="mt-[10px]">onwards</span>
           </CustomDiv>
