@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
            <head>
            <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords}/>
         {metadata.icons.icon.map((icon, index) => (
           <link key={index} rel="icon" href={icon.url} sizes={icon.sizes} type={icon.type} />
         ))}
@@ -42,7 +43,17 @@ export default function RootLayout({ children }) {
               gtag('event', 'conversion', {'send_to': 'AW-17028235260/F2kVCJj7m8MaEPz_2Lc_'});
             `}
           </script>
-        )}</head>
+        )}
+        
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-07JFDJWP87"></script>
+<script>
+ {`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-07JFDJWP87');`}
+</script>
+        </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

@@ -1,7 +1,8 @@
 
  const metadata = {
-  title: "Bhubaneswar’s Most Iconic 4 & 5 BHK Homes | DN Kingsland",
-  description: "Experience Odisha’s most luxurious 4 & 5 BHK residences at Janpath, Bhubaneswar. A legacy since 1960. From ₹5.10 Cr*. DN Kingsland – First & Last in Luxury.",
+  title: "DN Kingsland | Janpath, Bhubaneswar, Odisha ",
+  description: "DN Kingsland Iconic 4 & 5 BHK, Rising proudly in the heart of Janpath, Bhubaneswar. It is Odisha's Largest & Most Expensive Home",
+  keywords:"dn kingsland, dn homes kingsland, dn homes bhubaneswar, dn bhubaneswar",
   icons: {
     icon: [
       { url: '/assets/favicons/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
