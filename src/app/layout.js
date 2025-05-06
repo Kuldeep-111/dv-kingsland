@@ -1,5 +1,8 @@
+"use client"
 import { Geist, Geist_Mono } from "next/font/google";
 import "../style/globals.css";
+import { usePathname } from "next/navigation";
+import metadata from "./metadata";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -11,22 +14,35 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "Bhubaneswar’s Most Iconic 4 & 5 BHK Homes | DN Kingsland",
-  description: "Experience Odisha’s most luxurious 4 & 5 BHK residences at Janpath, Bhubaneswar. A legacy since 1960. From ₹5.10 Cr*. DN Kingsland – First & Last in Luxury.",
-  icons: {
-    icon: [
-      { url: '/assets/favicons/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
-      { url: '/assets/favicons/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/assets/favicons/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-    ],
-    apple: '/apple-touch-icon.png',
-  },
-};
 
 export default function RootLayout({ children }) {
+  const pathname=usePathname();
   return (
     <html lang="en">
+           <head>
+           <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        {metadata.icons.icon.map((icon, index) => (
+          <link key={index} rel="icon" href={icon.url} sizes={icon.sizes} type={icon.type} />
+        ))}
+        <link rel="apple-touch-icon" href={metadata.icons.apple} />
+           <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17028235260"></script>
+        <script id="gtag-init" >
+          {`
+              window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'AW-17028235260');
+          `}
+        </script>
+
+        {pathname.split("/").includes("thank-you") && (
+          <script id="conversion-event" >
+            {`
+              gtag('event', 'conversion', {'send_to': 'AW-17028235260/F2kVCJj7m8MaEPz_2Lc_'});
+            `}
+          </script>
+        )}</head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
