@@ -5,7 +5,7 @@ const WhatsappButton = () => {
   return (
     <button className='fixed bottom-[51px] right-[20px] cursor-pointer z-2 w-[40px]'>
       <Link
-                    href="https://wa.me/919861922925"
+                    href="https://wa.me/919891807073"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"

@@ -52,7 +52,7 @@ const ContactUs = () => {
                 </div>
                 <div className="flex items-center gap-4">
                   <Link
-                    href="https://wa.me/919861922925"
+                    href="https://wa.me/919891807073"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
@@ -62,7 +62,7 @@ const ContactUs = () => {
                       IconUrl="/assets/icons/whatsapp.png"
                       IconClass="!w-[18px]"
                     />
-                    <span className="text-[18px]">+91 9861922925 </span>
+                    <span className="text-[18px]">+919891807073  </span>
                   </Link>
                 </div>
               </div>
